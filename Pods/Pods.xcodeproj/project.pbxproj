@@ -1,0 +1,1912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01399B812CAE60C3AFBA6B1AFDC1737D /* NSDictionary+LeanCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = B31659ABBF413DE07E5DDFC538034C81 /* NSDictionary+LeanCloud.m */; };
+		0201D9B0AED5C53D1F1955EB0B55A672 /* AVAnalyticsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0539BC92D98E7D0ECC457929B3021E7D /* AVAnalyticsUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04142829C22D8D2D8B4639DB701204AF /* AVUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B396957566AE0677B192CDAC001A160F /* AVUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		042C60F518E443B668082A24B61469E9 /* AVPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B582FF76D2D205190A8131C14C427AC /* AVPush.m */; };
+		0499C666E7D06495CBDEFB4DD113AB2A /* LCResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AD6678D81F26D63CA8ED846F59FEC6 /* LCResultSet.m */; };
+		050320C662219D4B6E08B526CAD91EDA /* AVScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7559DC09D79A4975E5B9442664E3B78D /* AVScheduler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		050FEF9032B4BC3E38E4A731E7CDE99F /* ObjectUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B71B15372591F96AF439819D069C6D /* ObjectUpdater.swift */; };
+		05C74A0992D084B5DB96E2C5F6385EBD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0883388AB0AD76D94AF0575CABAAA /* Extension.swift */; };
+		06978919F8C7AD2F993A10EA0E964C7D /* AVAnalyticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A768DAB93121C9127BF4FD327BCE83 /* AVAnalyticsUtils.m */; };
+		06C5FBB65F814780894C0DCCCCFBE00F /* AVNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB2C058D3A0AED863E21D97081ED1B9 /* AVNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07B5BE9570D4C41607AC3DEE44F9E01F /* AVAnalyticsActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 02368ED4695BECC9A7EF4108DFDA5C5D /* AVAnalyticsActivity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		083344DD3474658D623FC060FEBED119 /* AVObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 52553A42C22E8DD9BBC9CDBB9757FB47 /* AVObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AA3BE3C7FCF9C328F9B8FAF4DD999BB /* AVPush_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE42C54F61DCF117BE3B5F2A430CC5E /* AVPush_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E949BAD7511B4C23BB74AC22AE4F2F1 /* AVOSCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 888FC5822C0335EBD05AB95836454231 /* AVOSCloud.m */; };
+		0FAFA12FCE060730A2B0ACF938E0E1CC /* LeanCloud-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07508918351470B1F8F966BB9DAF468E /* LeanCloud-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361B5532FA3809634720CA1EDDF89D0 /* Timeline.swift */; };
+		1204A7DD8D5D63D5116B0D8D9B042D86 /* AVPartialInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA6AF7FAC532268922C73B3AED317C /* AVPartialInputStream.m */; };
+		1319A1AF4260B4DA6A11D7A4DC9FD3FE /* SDMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47A32032BAA257858F3F50B5416BEC /* SDMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15699AA2E7BE8C413360AC7FE3AB7955 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E422C21EDA02A5838E15702178AC3B /* MD5.swift */; };
+		16EDC7A920A655A9228E796DF617EEA1 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD7EDCF5922BE3A6CAB045838AEFC1 /* Engine.swift */; };
+		1744E81FBAEF7999A0C0119C02E3F62B /* Pods-HBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 104BE27509F98334A701F31C99E90FC7 /* Pods-HBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		193E3592984557313599EBDC361DA51D /* AVDynamicObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B8CFB3455430B78E0753B549CFFF2149 /* AVDynamicObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		193EC493CDC0C7857956A31A6D588735 /* LCDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 8833B8910B9D5D1F7D05F160CC67D701 /* LCDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1971F1702D6E702CF3A46F90152AACFC /* AVLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B17783AE70BA5FCB6D8735895A82158 /* AVLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D158105A043C567B97FC4F9E8E03D9 /* LCNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B5954D43842806EA01AA10090CFCD0 /* LCNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A46B5C09FAAA2DBBA6EA18596600AC8 /* AVCloudQueryResult_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C444847184624E2095313FD5D222BB /* AVCloudQueryResult_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1ABFE2BE482077C3155EEB510FD2583F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B1B9FD5C1516ADCA46F22E34EA6C9 /* Result.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A347777853FB3C03F1AE3C31440A0C40 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C3595C844B1AE4A2DE3EAD7BE19D978 /* AVSearchSortBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8764D1F3675DABA0CEAA469251098A80 /* AVSearchSortBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C6CDF9337571C7FC2EF5115484813A5 /* AVUploaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81980E4BBC0AD600A89CA95B9A40D0CE /* AVUploaderManager.m */; };
+		1CA1F35C397A511F3B1A3F67D0581B70 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99A09825DD88B75E55567DDD4F1A06 /* Bool.swift */; };
+		1D16DC0148D185F55FFC3495F0C7D77C /* LCURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F639B82FF1E1E9C513F877F62406B5 /* LCURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E61DFB01E8BC6B6F5F0E2439421C929 /* AVCaptcha.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA6093177967203C63A50C20B09B75C /* AVCaptcha.m */; };
+		217CD5CC8604FB1BE201562886736B05 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC85E99744AD3FBD8DA664FBCE404D6 /* CFNetwork.framework */; };
+		22685064447383F38B0AC4A848BC28E0 /* AVRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 7588E6D1E387156C8C6DDB3CA7ADC44B /* AVRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235E1CBF2F8210F3E08A893B062D2D44 /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346CB503EE6F4811D6761E994FEF0E72 /* Relation.swift */; };
+		2380837C51A6CED8DB81BB29C9101EBF /* AVConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B81F6E35FE2226902D1A4C99A64150D /* AVConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2489CDFC4D43914E553BD93D4C0EB0FC /* AVPersistenceUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B24C2092424E319C49D1789578B24BBF /* AVPersistenceUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24B1A419D176F8553DA22C7595F2962C /* NSDictionary+LCHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F990BC5AC6F401B3ACC4A48C2292CD /* NSDictionary+LCHash.m */; };
+		24CA9FCC44822B49F4AC54EE851F50C2 /* LCDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9097FFE36B582A002B3F257C97D8A1 /* LCDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26A20C1A0E473BBA90D8D43B310F76BD /* AVKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C0EF87C32ABF3D7591950493B7BD8B /* AVKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26D67E7A5612FFF2C1BEFA6157BBA00D /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AFC05A5BFD1B34FB02C0759B88869C /* Role.swift */; };
+		27AEB77F78D1F3A8EDC79B0B6AB3B60A /* AVAnalyticsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B46E303D84A450D56E7CABD49EA4B7 /* AVAnalyticsImpl.m */; };
+		29F95BB744528B6E6ADD884837951C43 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EA0E4937AFF74A87EA01AA4AF1FA25 /* Logger.swift */; };
+		2C40B199E61CA9E1CC8D037CF378E761 /* LCHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F1AEEBFFBB3F580830C04F46A3CEFF18 /* LCHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C44496CE24EC6FDB9556B92557B8FF3 /* AVOSCloud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB6228FB2457EEE6E2AA40734FBBAB /* AVOSCloud-dummy.m */; };
+		2C5C928709E63B0659B456EE10EFCD11 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AFDB4C1BE785858FA87EB2363BE52 /* Data.swift */; };
+		2E0541B475DBB970635C7F8F8FAA35F7 /* Null.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705E84FF9698D348D98BEE903ECA6C0C /* Null.swift */; };
+		3097D263CC94B0BD1848373720C5D5E0 /* AVStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D013CD07E52C360635950A240AF80A /* AVStatus.m */; };
+		3336A29FAFF4F2AC356ACA0C41648210 /* LCResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 0942E9CB11C3509FC008FEFC9F405101 /* LCResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3449861448BC359C24A37E02B24532CA /* AVSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8A323903CD33B89EC516A09728E959 /* AVSMS.m */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BDD214FDA34F99982E9478D4974074 /* TaskDelegate.swift */; };
+		3802BAE869E5E0D2213B18E7BE730A4B /* AVUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A9246010FE0C6C1A7EFED8461E9C8A /* AVUtils.m */; };
+		3B265325D869D4704166F492EAE73B4B /* AVStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = AED0217CDB36E535CB3B055C1B5F68D7 /* AVStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B9A15ED3CAC3671623B44D3343168F7 /* LCDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 33345A036EFF1A902EC6CBC0D1B5BA6B /* LCDatabaseQueue.m */; };
+		3DD844C551CB65B79269FF8F00CA07FB /* AVCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABFE3ECF76FA15E755C2ED57A406DBE /* AVCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E4AA992CC6540DA88E0F9DB3CDD97F2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5EF8D9DC91DFA45EFD7CFB95F3D250 /* User.swift */; };
+		3E6E4E72557A0160A6ED793414B8FBAE /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B9554F867C400F6CE16D527A89E6E7 /* Number.swift */; };
+		414493A5321665C70B9ECE56A6BD8DCD /* LCDatabaseCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = F0156892FBA45F90AC7D0D42D08F9FF4 /* LCDatabaseCoordinator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41C21BCF3647C6247C4AC1F9B93E34A3 /* AVAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6031050434BC14B54C02BBDFDE6B3540 /* AVAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		424196550346ABF078A884A2F04EA446 /* AVRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFDB290D3A3957BE27CCD8C46D95387 /* AVRelation.m */; };
+		42817B6B8ECEE4C71B50E6F20D5D3BB1 /* AVAnalyticsSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A38634B5E96C227E067B1EC57BA2A4A3 /* AVAnalyticsSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		446DFBCE44F34CDDE619682DAFCDFC4B /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C836E4F86815BDF0D4D8047359F39F1 /* Runtime.swift */; };
+		4488CB9E9D988B54A08335C74EAF9847 /* AVHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CAE0BF60CFE3B2FD5817E633C5D426 /* AVHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44A54BADC5E6488F30325C275335F0AE /* AVUploaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B17C1C3BF37622112B826A5D20F922 /* AVUploaderManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4661DCDB945E1C0EA67665E888C902C5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0739C6F9635F9A317DD6BB865338F8B /* Array.swift */; };
+		471EDDE69813BD40525564E29EB977D0 /* LCDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CB1ED5EBE3233BC22AB55992809BA9 /* LCDatabaseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47AE40FB59670E8F934715D13BB69067 /* LCSSLChallenger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4484136416790CA8593563C1D9F8FAB4 /* LCSSLChallenger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4855C6B0B4D0751C69E8978E350F93E1 /* LeanCloud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 502F05A58D5F011077DD58FC69088894 /* LeanCloud-dummy.m */; };
+		48706B2CF0DA96C58A75D873A4746253 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C7E566AF210E1345AE8B2885E4B029 /* CoreTelephony.framework */; };
+		4872E29A5694E43080C3C107ED9BADAA /* LCDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C16E46FBAEC642D60262FF36C33F0B04 /* LCDatabaseAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48ADBC95167F8FB55CE7D76FECDA56FD /* AVHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4049E1077C2576AC426FB9A2FA797D32 /* AVHTTPClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D48B6485DB536C005A463B4B4F224A0 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613826888EBDD46CF2B443BC6067C9E /* Error.swift */; };
+		508094B00ADA6EF05018054EBCC58909 /* AVQuery_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 86375AC9254AF9E32B913F04527F59EA /* AVQuery_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5087C261C196AFE66CE92BDE78768F97 /* AVGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A8E3965DA7A5EDE308699E94E64538 /* AVGeoPoint.m */; };
+		51E918C635F1FDDADFB526D300CBA713 /* AVRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE2A82AFF0BDAF40F720F543813952F /* AVRequestOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DADC9A98A81B918997E3D812FA95C2A /* Request.swift */; };
+		53E138FDF3D92A2232BBBDBF70DCCEB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABCBC2ABF75BC7FF7F5EB4DC3C7EC6F /* Foundation.framework */; };
+		54EB5C361B6D276B7916B24E60DD0D0B /* AVCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD4970BDECB582F19088AFCBF67730A /* AVCacheManager.m */; };
+		555BDB9728B610E3DB48599FB23CDD26 /* LCObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 660D6D2D84248F642CD0BE739A1548AB /* LCObserver.m */; };
+		55B27D81F65AAA6EF4531A5A10585647 /* GeoPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7B8B654799DDBA294A8E36747FC0D /* GeoPoint.swift */; };
+		590E16110154D4D35AFEABADDE44EF23 /* AVCloudQueryResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4693A02056E749AC63E92E68EBA7ECCF /* AVCloudQueryResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B298FF26567A947281C4765710D522 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5913A271ABB678B5C66E0BA548220F9 /* CoreLocation.framework */; };
+		5B0F4B235A0744F2A8E1345A82472E73 /* AVCloud_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B3BDD76D47F24D74384BBE569A931B /* AVCloud_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CA64509431BAF4CDD9D0E1D8E1D5DFB /* AVObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA130AC92CA0630F5D617A1822AA32B /* AVObject.m */; };
+		5E649832DB6E31BC282B8DAAE099ED74 /* Pods-HBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A874934B79B3EB0AE2346814E596E9 /* Pods-HBook-dummy.m */; };
+		5E868E5B6CC9CD1FC2EFC25764CCD99E /* AVSearchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FC60ECA4AF872B6D084C04652B4EEC /* AVSearchQuery.m */; };
+		5EFBB6C4D5F1E6F00F8ABFFBDC03673D /* LCURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F57F247C01F7771F87B19DA8432CA39 /* LCURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60894B72C37AB8F69F79BABE41C31896 /* AVObjectUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F23AEF130C68C77BAA50858DFD44580 /* AVObjectUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60BE0BCB9073AFD1E0F0A55676262B06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F74D3E299FBF89C25C53519E526AD8 /* CoreGraphics.framework */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95E9A2438847199F05E8FEC8A1B673 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1329E617D00EEEA3ADC1D7A9C8A98 /* ServerTrustPolicy.swift */; };
+		63449E2D2FE372BA0BB59FE454680BE8 /* AVScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 479E35BD008D913271F103B191C8B44A /* AVScheduler.m */; };
+		635BB5184579457EF4D42F04B27CE8C2 /* AVLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 815A935F5A1C7279E3470E83D2831366 /* AVLocationManager.m */; };
+		64393A11E7E0581AE2D8660EDD296032 /* LCURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9100ECC09F8F9C81FB38BFD885BB8244 /* LCURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64766116B5F55138676A2686D18A004C /* AVCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AF84087FCA66F0C307F52BC1F8B0F6 /* AVCloud.m */; };
+		64FEB8E91267DCCB26DB0094C0EFE7B7 /* AVKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D732E02F103A40B8E5E5AF48D52A434 /* AVKeychain.m */; };
+		69315B98D24429C4AD8979EA51261A4B /* LCDatabaseCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 62096582CB31F969D381C27020BE2C58 /* LCDatabaseCoordinator.m */; };
+		69D1D56994C07A42745DD88268417D37 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = DFAACFAC3FE49603958E2FFF10E432D7 /* EXTScope.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A0CACCFBAA830EDA64B50E478976109 /* LCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A40E13F0B61AF435B0BB0E6EE0A665D /* LCRouter.m */; };
+		6C01CAD923C906332D0708D709CBA61C /* AVQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 83023B761657C739CA1B4240C440947C /* AVQuery.m */; };
+		6CA22587752DB1093E15C7769230EA98 /* AVUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A722748F65E154FA60E14BBB2B772CD0 /* AVUser.m */; };
+		6D6D5B9D0420C6B1D91156F642BA0E12 /* AVConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AA86079B923B9605C52EDDBDC80437 /* AVConfiguration.m */; };
+		6DD4DE95F054E19830E8C65E535F64E4 /* AVUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F7836AD5FC56F7712C2C8362643A67 /* AVUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E03E28E6B950C92FC2DBD8C21893538 /* AVNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 235602DB3AC687EAFB11FE1C86706AE2 /* AVNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F0F04280EB6098F3801FA183E7D196D /* AVPartialInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = E74114F98DA02DF9E773A51FB6147B7F /* AVPartialInputStream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		714AC4C0BF3C28AC727448B906857D7F /* AVInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF59D7950F967EF08ABCC44D9720C39 /* AVInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		728A7D7196A7478B310AB24725E4F758 /* RESTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3407B67B4DE6D1B7A29108B289CFC37 /* RESTClient.swift */; };
+		72C741000E5BE2E82619B33B7DFC61FB /* AVRelation_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC035E2AB8613A19BEB8B0ACE45753F /* AVRelation_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7347FA48DE0E710A080527FE429AF150 /* AVDynamicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B765FDBA13B1805B3A4D5C24517B5 /* AVDynamicObject.m */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABCBC2ABF75BC7FF7F5EB4DC3C7EC6F /* Foundation.framework */; };
+		74FA3C218A1A9C02882B46928CE6987D /* SMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28BC650CB34D3F0C14880CA908B284B /* SMS.swift */; };
+		765FFAEAF16419CCA8AD66E9A304364D /* AVAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 563BD3ABA797243630CCB09D81D3C1ED /* AVAnonymousUtils.m */; };
+		76C3B8CF8929721BE16FB3D527C69C78 /* AVSaveOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A2CC719EECD9D6B536DBAC5F43506 /* AVSaveOption.m */; };
+		7720B89048345047C3234768D478E3B4 /* AVOSCloud_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0623C08F170879581F8CECA34528AD /* AVOSCloud_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7989377A99888BB40C4FB41B7DF692B0 /* AVPaasClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC078F5A3340285F1EC571857F5450 /* AVPaasClient.m */; };
+		7A26BDF907AF6F7BC21B0B262D3600BD /* LCSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBCC835D58A2C457FCA9FCDF2B8A8CD /* LCSecurityPolicy.m */; };
+		7AAD35DC0F8AB03C6841302472EC0503 /* AVAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9836B7423AF9FADD0E2A849DDF9819 /* AVAnalytics.m */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3372369C91D1132F79898A181DFA6D78 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A130335F8A70B491021C3E2C971D95 /* Result.swift */; };
+		7DC767E017EEA4A72D2CBAF740D1AE22 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F837CABA1AE8559EE070220CA53E4D /* EXTScope.m */; };
+		7FEB3EAC83DE73F43711C8402C29E7AB /* AVInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 392A95079B4C329B1B8FF48990AD1AF9 /* AVInstallation.m */; };
+		8137CAE3F873D65337664DF0BF48E3EB /* AVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3872552E2714C65EBF5B1B09BB966BE2 /* AVReachability.m */; };
+		82E158CD577241958299C4260E66E6E9 /* AVHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AB26E9236487A6BB874D42FF685A0E0E /* AVHTTPClient.m */; };
+		83E875D347283640DAFBC4DFC53C5EE3 /* AVJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD16DE13202707879CCE175110533AAD /* AVJSONRequestOperation.m */; };
+		858218CA48C38B7457C2EDDDA87A0742 /* AVObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 58CA2C91BBB18411012DBDEDE01A57B3 /* AVObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859705CDD38274EB1A6DE68A6C2AEC66 /* AVSearchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 4975511DCE635443F9595DA0192B5744 /* AVSearchQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86BCAD8ADB7285976B9019786E8915F9 /* LCURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C96D8B420CAED46AD0D15619F0FDB40 /* LCURLRequestSerialization.m */; };
+		8762CCD8CF605C76D8B91937FD093005 /* LCNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC7522CD0743AD384B066F987CB16CF /* LCNetworkReachabilityManager.m */; };
+		876B29F4BDE7EBBC1B8CA0CD6CB61115 /* AVCloudQueryResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E4165F177A24A969E03B007A024F36CA /* AVCloudQueryResult.m */; };
+		8895EF2BBB332D54DBA3EDBF8F37E9CA /* AVRole_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F8745777308355C8DE14B8C218AC490A /* AVRole_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89C25A6343A23FA1CB9FF5A2BF9DF50B /* AVFriendQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 943CC256F6C9F0F9ED7BBFC563E2291F /* AVFriendQuery.m */; };
+		8B82BFBF29D3E8FB1FABEC8985556169 /* AVRole.m in Sources */ = {isa = PBXBuildFile; fileRef = C53EB6E9A1FD4927EC008A4D62CF0C88 /* AVRole.m */; };
+		8BE92B1D8D41268FC6B499932D15EDA9 /* UserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F004B7EC63C3D9F24B5B21ED79619E /* UserAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		909E0C023B12F2F813AF89DA871D07D3 /* AVErrorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 056A0B9B210E7EA33F210381771E9203 /* AVErrorUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90E43B789E2ED43FD5C1AAF553878231 /* AVOSCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B76CC90308DA173B648A64985A49BA /* AVOSCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91161CF0A86D8137F642F84B4B8BDB12 /* LCKeyValueStore.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCC33D0A385301B2508F5A59D67F62A /* LCKeyValueStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		929FF32424569185C3270E8D131F9E0F /* AVUser_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AB014AEFB961A9F3F37A257A64E7DF01 /* AVUser_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		933A5F9C750F6A948CF4BA2A861ED67C /* LCNetworkStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 123439D5F18CC47C34BA0B2325E1B6C5 /* LCNetworkStatistics.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		935A097FD6F72CAD7927B635BD5DF06E /* AVSaveOption_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1BEA0FF0353C53E7FFFC440E9464C3 /* AVSaveOption_internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94CA1F169602365B6813A3B05F83CB8C /* AVAnalyticsImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = BBED8B3F296E7B00B8362FCB240622AC /* AVAnalyticsImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		952F1EFAE4C49CE42D7EBA5E1B0C005D /* LCDatabaseMigrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E878D5ED9B09A036041E9E812DBAF0 /* LCDatabaseMigrator.m */; };
+		9A735EFB17DE946067EAD6FB96812E50 /* BatchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61707040D2883D631BA02A25C97CD0FD /* BatchRequest.swift */; };
+		9ACC4FCDFC8966D805644FF76996ED5C /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86204186CF6C06C19A6B7F27556957D3 /* Object.swift */; };
+		9C20CF7BD78005C015AC14DA7FCDACA8 /* AFNetworkingFix.h in Headers */ = {isa = PBXBuildFile; fileRef = 520C6DAD1CCAE87E1B38D5FD221B533E /* AFNetworkingFix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E50A6323846726468E83FDE437FC646 /* AVObject_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D82EECE8F490C7E7832BD23290562F /* AVObject_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B73629F733E1C1C4B49C6D356CEA0B /* AFError.swift */; };
+		9F80DC8E3556685A7C4880B6576E479D /* AVAnalyticsSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F35CF18E5AE8C60609A98098DE82D /* AVAnalyticsSession.m */; };
+		A018D59A67F963D0ADF087ACD8AA1A53 /* LeanCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D73B647FBF745E546C18B358C1704C /* LeanCloud.swift */; };
+		A0236F214DEF5B6DB3879FBF48AEB52E /* AVAnalyticsActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = B387ED1A5F9C16D4E861C13488A88A40 /* AVAnalyticsActivity.m */; };
+		A2775870581EB62A5EFA09CD6B535812 /* LCURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF5DD7261DA99BB9F46D95556EADBEC /* LCURLConnection.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE380E1F4EDFE908042AE84012946141 /* NetworkReachabilityManager.swift */; };
+		A47C70840C877618AF9B8D92A71667A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D980C3D20399E907E1694B9CC960E /* Security.framework */; };
+		A4A68901024C7C65E0DD425E300BBB32 /* LCKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 289AFB6D7BB8DDA3401F9DCEC0BCA7D9 /* LCKeyValueStore.m */; };
+		A54827811EAC0CDBAE437065179811AC /* AVFile_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B03E62D3D0B558D25BFCF2FE54C9D2 /* AVFile_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A58D0296DEDD5DD15FCBDB5CD6BB937E /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30790B5E65AE30984EE7AECCB65C22EF /* Value.swift */; };
+		A59E79653AB1ADAC6B01DFB57720CD75 /* LCNetworkStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A29D09DB3A140B5BFCFDCACC697370B /* LCNetworkStatistics.m */; };
+		A655852814A6F4362EE011A8E731FEDD /* AVPush.h in Headers */ = {isa = PBXBuildFile; fileRef = D665C1699595C5C591AF53D5A83989CF /* AVPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A67FBC7A583C97DB35252E1E37A18464 /* AVAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 263728BF0A8E20625AEB0C8C2847C8F2 /* AVAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6F59A7D0A7AB78AFDCCED85DCB2A364 /* AVJSONRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1A8FF22D009979C030FAAADE91A9FC /* AVJSONRequestOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A717F953F29696941D24E42865CD366A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABCBC2ABF75BC7FF7F5EB4DC3C7EC6F /* Foundation.framework */; };
+		A9A3FF54A0C5888595F6D759B23E7A04 /* AVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B60BDAC48D7BE468350705CA8402A4F /* AVLogger.m */; };
+		A9B24C6AA9B6D2A601F62BE2188E06C9 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A971F3F7D7619B060EF570C1C12C76 /* Request.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB41C9C3CFD83284594DD4EF7C1998A0 /* Alamofire-dummy.m */; };
+		AAACFBFA745D28E0C1097F2DB3B063FE /* AVInstallation_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 201B00E9BBA345C8F363295D95F25DED /* AVInstallation_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AAB613DDE27B683CACCEA8514E22A6A4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D79B0503819A3E3F6531344A9F94EC2 /* String.swift */; };
+		AAD8A267CE6FFA11EF269C559FE8AADA /* LCDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE620A2FF35E651A37FF29BC9AE9785 /* LCDatabasePool.m */; };
+		AB712120969B49D99B6A5B83ACC29695 /* AVAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A19E1E8A1E860F024C8DCE5B92551D /* AVAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D076FF72E635909933F3B44A06FBD /* SessionManager.swift */; };
+		AE234C2B2C84786B9ADC00CD8DF17362 /* AVRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B465503F4CD77DB1F6FF3761639D5B /* AVRequestManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE8B40D4CBC55FC85BB6D86E0E93603E /* AVSMS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A13043C13D7C8BE99849695526525CA /* AVSMS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF41E47F5D09B9D7BAA9FC89DD4AB790 /* LCDatabaseMigrator.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F67508B18301266EF47592D4F2B9EE /* LCDatabaseMigrator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B042CB8D95A81C4F05C774160F224842 /* AVDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D6BB4CC05AF1E042514A47154A48C /* AVDuration.m */; };
+		B13F3D041EDB56CF59AF570808D5998C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6B8F1B3EC51D58F7115713ED7FBF23 /* Alamofire.framework */; };
+		B2BE4CCBB936FD9119B0079CEF9DF070 /* AVConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F439E3C9B598E9A2184304C9DCA236A5 /* AVConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B387FBF93DD4BE70489FAFE2B62373B3 /* LCKeyValueSQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 421CDC8D95BAFC1386EDDFE47DBF92C8 /* LCKeyValueSQL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3A22FBECD467D43DBD4E83265CC1B88 /* ObjectProfiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40514F1912835A3E7886D1C3AA1A69AB /* ObjectProfiler.swift */; };
+		B434690C6CB38C259386B629CED3568B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22AC8429DFD097890E6E45A3C7BD1F3 /* MobileCoreServices.framework */; };
+		B47493ADC5622807BF1E3F4AB5BA6E2E /* AVXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A64618EAA7AEE97C7A7EC6279F905B5A /* AVXMLRequestOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B60F98E18A3EE0754C6EA7D6DCF6A24F /* AVExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DCC99232107E9E54D731FB3CDF60D0 /* AVExceptionHandler.m */; };
+		B63A69527E01B32E5A0E34794164571E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59086E8F7B36A4FFB75E618D6865671D /* Configuration.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFEE2405737504C037B9CB025468D8 /* MultipartFormData.swift */; };
+		B8177CF132A1A6668B17A6D7D04F20C7 /* AVACL.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC192D914877967E46E4DB6C0517423 /* AVACL.m */; };
+		B9A03B5621F2B15F427B9B48875E438B /* AVLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F304FE128512E414A5B2EC605957EA20 /* AVLocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA84EED8C751B48A12F6CD3E86696918 /* NSDictionary+LCHash.h in Headers */ = {isa = PBXBuildFile; fileRef = E493CE12E31DBCA40F1798338519A619 /* NSDictionary+LCHash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBD862C75CBF4C762B2FFDC92BF5D3C2 /* AVQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F363609DB56FC5611AF22E5F5C9840 /* AVQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BD4F3F3A873209EE0F0E7232A9A51F /* Validation.swift */; };
+		BC2A243A20B7193F98C9805F74B6813E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F65A1674887CD314AA56DE5893C0EB /* Date.swift */; };
+		BC94CCA0CFB62913E7C09B91F5CE3507 /* LCObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5E2068445574E1C78A0DCCB8E79BEC /* LCObserver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD31E25D998ADB22965C7C2F058BFC11 /* AVGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 46413F60C5C9D0CC606B53EA54E92605 /* AVGlobal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDE611DFB5791C74ADBD0B2CDBA8B0B0 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 948215DDFAEF92EEEA3426AD4E961374 /* metamacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDE74818D9B05CFD0F768F993F31CE89 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1C43E9ADACF76CE67EC6C83BB025F /* Query.swift */; };
+		BE064796E54A6B2C4E8CE3B103D94050 /* AVFriendQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B12E9397E16F96AC5C38706FEC73A258 /* AVFriendQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAD8248350EB54688BEDCA743F7F43C /* ParameterEncoding.swift */; };
+		BF24EDB30F5858EE5DE2F35FEFF516C0 /* CQLClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C322F20C5292C3BA8067D80B26FA84 /* CQLClient.swift */; };
+		C0B0EB1BB08DE943FB47984687A19A84 /* AVXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B80A614687531D1BDB5459133E843A1B /* AVXMLRequestOperation.m */; };
+		C545DA7920757D2BC9C8F29DFD2D8FEB /* AVFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B70E75F4C8171E1F85C6032B9535C76 /* AVFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5968953013E2CF541AFEA5B9B00445E /* AVAnalytics_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = EA28E39DF379AD2C2E5EDC5F4C9810F5 /* AVAnalytics_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C62A8A267F0A56F7EE6E5836A66667B0 /* LCDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F6B284830339F626E794F7DFA1ED4D /* LCDatabase.m */; };
+		C6414747164B3C88D6398FFEE7410D6C /* NSDictionary+LeanCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EADD957352FF736B6002C46C42750A /* NSDictionary+LeanCloud.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C66732E0888BABB1DA9EF75822B04342 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921806815BC2D471AFEBF8FB513DEBF7 /* Operation.swift */; };
+		C699C375276331E6654103D6BB1079A2 /* AVURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F36F7AC1094442716856576328283D17 /* AVURLConnectionOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6FAACFBEA39C7A84EA55AE6643467CF /* AVObjectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D33AD13548AF094508AF9256BD7E6A64 /* AVObjectUtils.m */; };
+		C75CD747D654E47901D3D9B02B3AF0CE /* AVRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD75CCDA5CAA6C71FFD76BBDCAA8F23 /* AVRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82009C953028017AE7010E04D35A7F9 /* AVOSCloud-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58DFAA5B7CE97D55639FC3B70636DEF5 /* AVOSCloud-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C85C43051911BA8DB18B60A8479A275A /* AVHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CFE5D5E08C553798D561D902BC2913 /* AVHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA47AE4FAB50EA49DCA0CB421546D645 /* AVGeoPoint_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2341AFBB45B0C1E27577E483C2C2C26D /* AVGeoPoint_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB1148A983B3AE902AC271E342AD09A0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3808E355D12B860F71B7E07258280D44 /* SystemConfiguration.framework */; };
+		CB13502832D35AC4D04B30DD24EF067A /* LCSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = F817FF9BD8C036950B967BDA17F4721F /* LCSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791DA0E0828A2ACD35A1D9ED41572B95 /* Response.swift */; };
+		CB9519C7CAE0CE6D2F26C0CFC8811B87 /* LCDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 934EEA9F9897BE44454C6059CA0772EF /* LCDatabaseAdditions.m */; };
+		CC2794AAB0AF5436AF9818A37194C0A8 /* AVURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 173D9A1BB8D2356D193EE22F47F002EC /* AVURLConnectionOperation.m */; };
+		CCFC4150087A3A236E0E046E23AE7CDD /* AVRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FA1821DBD276D9AB7C8F11C1FB0163 /* AVRequestManager.m */; };
+		D1E9D645537A4455BFCA36C6CC5BD3F9 /* LCDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 997B87E05BEDF23FD1C3F0CDEEAB978F /* LCDatabasePool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2441A3ED403114E48140F2728DA97C7 /* LCURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E8A68011F3CD021F93C402A52B5423 /* LCURLSessionManager.m */; };
+		D3A8E02CF95A205B7F5A149F06E26879 /* LCSSLChallenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A8069F2E0B0CD5E8B69857778A097C /* LCSSLChallenger.m */; };
+		D3C96A6EEA24071F7C58F6C915E990F7 /* AVSearchSortBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA5419A840C921DE5FB0A8AFF5D3A4 /* AVSearchSortBuilder.m */; };
+		D44CCE299F8D036DCAF1F35F1781037E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9569D888E9DC4277BB4DB3B5F0E5E43 /* Response.swift */; };
+		D54875BD1F5B3AD022025BC7A77CEC2B /* AVOSCloud_Art.inc in Resources */ = {isa = PBXBuildFile; fileRef = BE9A0D78291394AE018CA41482CFA9DF /* AVOSCloud_Art.inc */; };
+		D7FC47BEAC4254445D32201101CFA240 /* AVSaveOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ADB92197186D79E38F7BA79C1E4CB9D /* AVSaveOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8152D1CE4DF76D97582E25F3357451F /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A97BB8071C60F41CDF4B478E046F2B /* Dictionary.swift */; };
+		DA1D48166817800BD8FBC66B5D4E1968 /* AVDynamicObject_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AD23C7CF528BB4CFF301176FDA46CD9C /* AVDynamicObject_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDE5C8BD83433280BD44BC713A33CED1 /* AVFileQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 294F8647D2B2A95D46D9923226EE6ACE /* AVFileQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E139C3FFB0229C98EF6E02587A734A2E /* LCNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0AA3D47D576805264BF394DD9B304E /* LCNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3EEED257607209DEF1F753BCEAE3FE3 /* AVImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6102E155AE84322E271DBA8DDF18D377 /* AVImageRequestOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5C8FB6E7222D75EF1E6E5792F4D650F /* AVPersistenceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C009747A4F4758A037A586E935CC8E /* AVPersistenceUtils.m */; };
+		E71848C55D36F71C0CF53EA74D4B4E8F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB67BDFAF87758920734915315D46227 /* QuartzCore.framework */; };
+		E7C713EA30967D92954F6DABC390D193 /* LCURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C683D69D12F69EA0820BC29CEE53406 /* LCURLResponseSerialization.m */; };
+		E7CAD7DABE410502D63D27233D7D23B3 /* AVPaasClient_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 963C59D42F77A747BB6CEA4767858733 /* AVPaasClient_internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8259B3BF9791180703DD3FA588E4FBA /* ACL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB848C90230CBCCC17B5539D6251D03 /* ACL.swift */; };
+		E9D6D62C24F5ABAD59E8791A5088FE80 /* AVFileHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA99F195F44D0A85EFF7993A7629FB5 /* AVFileHTTPRequestOperation.m */; };
+		EB0F6FEA03DDD1BC819A8A2DC8C09A48 /* AVPaasClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 755952BF5BCF40EE7F64AAEFEF73AE40 /* AVPaasClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB369EC5FB81BC1D9482D975470B3145 /* AVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 868CC2A92452E4BF1F6170F5F4524028 /* AVFile.m */; };
+		EB7E36D8A8D8F1FDF20D363A0D7FE3C6 /* AVCaptcha.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D52A204EBD79C72CA6CA3CEEA8625E1 /* AVCaptcha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC36664CE45FB5663F6150BCA08756A9 /* AVConfiguration_extension.h in Headers */ = {isa = PBXBuildFile; fileRef = E77ED9E529129A49864AB9710FF79C18 /* AVConfiguration_extension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED18FD0FCF0FAC3C8DBDD1A0CCD48A53 /* AVFileHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9898C116317676FDEED8FF94035A50BE /* AVFileHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED1E2B7651C3907B11F642D2CCF1099E /* LCDatabaseCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = B8727BA6ADE93E29A9BCF94D491B0128 /* LCDatabaseCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED8BE0C562D9DFDEDE5F9228F7060EF0 /* AVCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E0216C9C1E9F1B5F7D0202ACD8D543 /* AVCacheManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF36B700C0CEC9FB2E139ECD3D4C82AF /* AVErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC3027C688A03E48E9938D765E3762 /* AVErrorUtils.m */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB19277C03A6F4734A8D900BE1A0A4 /* Notifications.swift */; };
+		F06EF3D34355B620AFE4C38D77D7843D /* AVACL.h in Headers */ = {isa = PBXBuildFile; fileRef = 79505F0496B8EE7C3ACECC7419141883 /* AVACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3E2148607085C11A3B0340920801AD4 /* AVHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26694408A62B7F89CC0ED17FDCA891CE /* AVHTTPRequestOperation.m */; };
+		F4288C9B4F327D8FE29A547ACFDA0492 /* AVRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D43A671778A9DEF57C92425A2CA6FB /* AVRequestOperation.m */; };
+		F46661DFC759FCE6C5BC651AB9350935 /* AVNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E732089ECA00CDFBF90211D2E1A3BD /* AVNetworkActivityIndicatorManager.m */; };
+		F497ABA23761AEE797A21EAD53B930BF /* AVFileQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 209163208AB949CA69017A935D16BD4B /* AVFileQuery.m */; };
+		F4E046A08BAC4094B109BBDFDEC01747 /* AVGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = FA05E996995EF032D7786A104D82469E /* AVGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EB9D32042DC95FDC83669702CB5102 /* LCHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9DA60D7822B1E43751784FC08760F /* LCHTTPSessionManager.m */; };
+		F58500D8AF9AEE5F6CB62AF004DC5CC2 /* AVDuration.h in Headers */ = {isa = PBXBuildFile; fileRef = E3382E7433D6685FCD21E4E9CCD7C086 /* AVDuration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F643C01C2A463127D7E743983B3C86F2 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF66290F8CE03942081464CF408A3C /* Utility.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7BBD069557A8499B6F5FB7096C83D1 /* ResponseSerialization.swift */; };
+		F74CD9500C463DA6E166163E39BB4650 /* AVReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 02849F0C981FDB2278635EB6E51CBD07 /* AVReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7FD554E9A7415ADCE33D471BA6475C7 /* LCURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BA51DBEFF4E73DB72AAC59B79C7A5738 /* LCURLConnection.m */; };
+		F82CC4AEE80C3E105EF37274E32F6CA7 /* AVACL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 27636F24F2FA0965A6A72C92AE5A9AA5 /* AVACL_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386D539D825AF7290572DDE88F5DDEE /* Alamofire.swift */; };
+		F8BB6B5D56B7AE3C0DB95C4D18F7912F /* AVImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4004D8B82402EF2647544B60FCE814 /* AVImageRequestOperation.m */; };
+		FA45C76EF31536BD17FB92F15D8F37D9 /* AVExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E7BD023FFF8906203C4F659C245A16 /* AVExceptionHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB41F8C07F2012642DF9582F3F4EB25A /* LCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = A4484B689BD3175597E168B38CFD1057 /* LCRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD73A2168B441C9C589E96829D24DFCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABCBC2ABF75BC7FF7F5EB4DC3C7EC6F /* Foundation.framework */; };
+		FF11886D39A5E7BCFA4AC769E8B63AF0 /* AVSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC6A5A54BB7F11ADADEDBBA15D161BB /* AVSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		565BBBC98B092686B6EFD29EE3398D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		C821A77EFE44F6C64C444F277E4931FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E01143F3C6C5F4C651109AE4A7F4DAA;
+			remoteInfo = LeanCloud;
+		};
+		E076D7CC315E56B71A53A2B83446995F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F1BD6E6447C86B0F3C1500EF8A9E01;
+			remoteInfo = AVOSCloud;
+		};
+		FC6960A35C465991D6F4C2BDD12F89EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B03E62D3D0B558D25BFCF2FE54C9D2 /* AVFile_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVFile_Internal.h; path = AVOS/AVOSCloud/File/AVFile_Internal.h; sourceTree = "<group>"; };
+		01C009747A4F4758A037A586E935CC8E /* AVPersistenceUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVPersistenceUtils.m; path = AVOS/AVOSCloud/Cache/AVPersistenceUtils.m; sourceTree = "<group>"; };
+		02368ED4695BECC9A7EF4108DFDA5C5D /* AVAnalyticsActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnalyticsActivity.h; path = AVOS/AVOSCloud/Analytics/AVAnalyticsActivity.h; sourceTree = "<group>"; };
+		02849F0C981FDB2278635EB6E51CBD07 /* AVReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVReachability.h; path = AVOS/AVOSCloud/Utils/AVReachability.h; sourceTree = "<group>"; };
+		02EADD957352FF736B6002C46C42750A /* NSDictionary+LeanCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LeanCloud.h"; path = "AVOS/AVOSCloud/Utils/NSDictionary+LeanCloud.h"; sourceTree = "<group>"; };
+		038B1B9FD5C1516ADCA46F22E34EA6C9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Storage/Result.swift; sourceTree = "<group>"; };
+		0539BC92D98E7D0ECC457929B3021E7D /* AVAnalyticsUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnalyticsUtils.h; path = AVOS/AVOSCloud/Analytics/AVAnalyticsUtils.h; sourceTree = "<group>"; };
+		056A0B9B210E7EA33F210381771E9203 /* AVErrorUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVErrorUtils.h; path = AVOS/AVOSCloud/Utils/AVErrorUtils.h; sourceTree = "<group>"; };
+		07508918351470B1F8F966BB9DAF468E /* LeanCloud-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeanCloud-umbrella.h"; sourceTree = "<group>"; };
+		0819B1BD2F78FC12EC52B6831194DC28 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		094110461BC929C5AC54CE313E96BA09 /* Pods-HBook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBook-resources.sh"; sourceTree = "<group>"; };
+		0942E9CB11C3509FC008FEFC9F405101 /* LCResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCResultSet.h; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCResultSet.h; sourceTree = "<group>"; };
+		09DA5419A840C921DE5FB0A8AFF5D3A4 /* AVSearchSortBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVSearchSortBuilder.m; path = AVOS/AVOSCloud/Search/AVSearchSortBuilder.m; sourceTree = "<group>"; };
+		0ABFE3ECF76FA15E755C2ED57A406DBE /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVCloud.h; path = AVOS/AVOSCloud/CloudCode/AVCloud.h; sourceTree = "<group>"; };
+		0B60BDAC48D7BE468350705CA8402A4F /* AVLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVLogger.m; path = AVOS/AVOSCloud/Utils/AVLogger.m; sourceTree = "<group>"; };
+		0D213595B96FD649EE05E505F4002964 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F57F247C01F7771F87B19DA8432CA39 /* LCURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCURLResponseSerialization.h; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCURLResponseSerialization.h; sourceTree = "<group>"; };
+		104BE27509F98334A701F31C99E90FC7 /* Pods-HBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBook-umbrella.h"; sourceTree = "<group>"; };
+		10A8069F2E0B0CD5E8B69857778A097C /* LCSSLChallenger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCSSLChallenger.m; path = AVOS/AVOSCloud/Utils/LCSSLChallenger.m; sourceTree = "<group>"; };
+		123439D5F18CC47C34BA0B2325E1B6C5 /* LCNetworkStatistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCNetworkStatistics.h; path = AVOS/AVOSCloud/Statistics/LCNetworkStatistics.h; sourceTree = "<group>"; };
+		147C34F0154EDE4713A1363E75F756DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F74D3E299FBF89C25C53519E526AD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		173D9A1BB8D2356D193EE22F47F002EC /* AVURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVURLConnectionOperation.m; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVURLConnectionOperation.m; sourceTree = "<group>"; };
+		18C1C43E9ADACF76CE67EC6C83BB025F /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/Storage/Query.swift; sourceTree = "<group>"; };
+		19DCC99232107E9E54D731FB3CDF60D0 /* AVExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVExceptionHandler.m; path = AVOS/AVOSCloud/Analytics/AVExceptionHandler.m; sourceTree = "<group>"; };
+		1B70E75F4C8171E1F85C6032B9535C76 /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVFile.h; path = AVOS/AVOSCloud/File/AVFile.h; sourceTree = "<group>"; };
+		1B81F6E35FE2226902D1A4C99A64150D /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVConstants.h; path = AVOS/AVOSCloud/AVConstants.h; sourceTree = "<group>"; };
+		1C0623C08F170879581F8CECA34528AD /* AVOSCloud_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVOSCloud_Internal.h; path = AVOS/AVOSCloud/AVOSCloud_Internal.h; sourceTree = "<group>"; };
+		1CF04C37EBA2815D4285D49238B58781 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		1D79B0503819A3E3F6531344A9F94EC2 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/Storage/DataType/String.swift; sourceTree = "<group>"; };
+		1F093396B7826302AB5C7C8969CDBE94 /* Pods-HBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBook-acknowledgements.plist"; sourceTree = "<group>"; };
+		201B00E9BBA345C8F363295D95F25DED /* AVInstallation_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVInstallation_Internal.h; path = AVOS/AVOSCloud/Push/AVInstallation_Internal.h; sourceTree = "<group>"; };
+		209163208AB949CA69017A935D16BD4B /* AVFileQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVFileQuery.m; path = AVOS/AVOSCloud/File/AVFileQuery.m; sourceTree = "<group>"; };
+		20BA6AF7FAC532268922C73B3AED317C /* AVPartialInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVPartialInputStream.m; path = AVOS/AVOSCloud/File/AVPartialInputStream.m; sourceTree = "<group>"; };
+		20CAE0BF60CFE3B2FD5817E633C5D426 /* AVHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVHelpers.h; path = AVOS/AVOSCloud/Utils/AVHelpers.h; sourceTree = "<group>"; };
+		2198BDE867BB9F819C256547B5E44C20 /* Pods-HBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBook.debug.xcconfig"; sourceTree = "<group>"; };
+		2341AFBB45B0C1E27577E483C2C2C26D /* AVGeoPoint_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVGeoPoint_Internal.h; path = AVOS/AVOSCloud/Geo/AVGeoPoint_Internal.h; sourceTree = "<group>"; };
+		235602DB3AC687EAFB11FE1C86706AE2 /* AVNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVNetworking.h; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVNetworking.h; sourceTree = "<group>"; };
+		23BDD214FDA34F99982E9478D4974074 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		24FA1821DBD276D9AB7C8F11C1FB0163 /* AVRequestManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVRequestManager.m; path = AVOS/AVOSCloud/Object/AVRequestManager.m; sourceTree = "<group>"; };
+		25AB80505F546FAF29D9A72C524B4552 /* Pods-HBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		263728BF0A8E20625AEB0C8C2847C8F2 /* AVAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAvailability.h; path = AVOS/AVOSCloud/AVAvailability.h; sourceTree = "<group>"; };
+		26694408A62B7F89CC0ED17FDCA891CE /* AVHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVHTTPRequestOperation.m; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVHTTPRequestOperation.m; sourceTree = "<group>"; };
+		27636F24F2FA0965A6A72C92AE5A9AA5 /* AVACL_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVACL_Internal.h; path = AVOS/AVOSCloud/ACL/AVACL_Internal.h; sourceTree = "<group>"; };
+		27F6B284830339F626E794F7DFA1ED4D /* LCDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCDatabase.m; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabase.m; sourceTree = "<group>"; };
+		289AFB6D7BB8DDA3401F9DCEC0BCA7D9 /* LCKeyValueStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCKeyValueStore.m; path = AVOS/AVOSCloud/Utils/LCKeyValueStore.m; sourceTree = "<group>"; };
+		294F8647D2B2A95D46D9923226EE6ACE /* AVFileQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVFileQuery.h; path = AVOS/AVOSCloud/File/AVFileQuery.h; sourceTree = "<group>"; };
+		2A0D980C3D20399E907E1694B9CC960E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		2A13043C13D7C8BE99849695526525CA /* AVSMS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSMS.h; path = AVOS/AVOSCloud/SMS/AVSMS.h; sourceTree = "<group>"; };
+		2A29D09DB3A140B5BFCFDCACC697370B /* LCNetworkStatistics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCNetworkStatistics.m; path = AVOS/AVOSCloud/Statistics/LCNetworkStatistics.m; sourceTree = "<group>"; };
+		2B1BEA0FF0353C53E7FFFC440E9464C3 /* AVSaveOption_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSaveOption_internal.h; path = AVOS/AVOSCloud/Object/AVSaveOption_internal.h; sourceTree = "<group>"; };
+		2C96D8B420CAED46AD0D15619F0FDB40 /* LCURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCURLRequestSerialization.m; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCURLRequestSerialization.m; sourceTree = "<group>"; };
+		2FC757646910A69DABB2015EBB3145C2 /* Pods_HBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBook.framework; path = "Pods-HBook.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30790B5E65AE30984EE7AECCB65C22EF /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/Storage/Value.swift; sourceTree = "<group>"; };
+		33345A036EFF1A902EC6CBC0D1B5BA6B /* LCDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCDatabaseQueue.m; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabaseQueue.m; sourceTree = "<group>"; };
+		3372369C91D1132F79898A181DFA6D78 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		346CB503EE6F4811D6761E994FEF0E72 /* Relation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Relation.swift; path = Sources/Storage/DataType/Relation.swift; sourceTree = "<group>"; };
+		35F7836AD5FC56F7712C2C8362643A67 /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVUser.h; path = AVOS/AVOSCloud/User/AVUser.h; sourceTree = "<group>"; };
+		3808E355D12B860F71B7E07258280D44 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		3872552E2714C65EBF5B1B09BB966BE2 /* AVReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVReachability.m; path = AVOS/AVOSCloud/Utils/AVReachability.m; sourceTree = "<group>"; };
+		392A95079B4C329B1B8FF48990AD1AF9 /* AVInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVInstallation.m; path = AVOS/AVOSCloud/Push/AVInstallation.m; sourceTree = "<group>"; };
+		3ADB92197186D79E38F7BA79C1E4CB9D /* AVSaveOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSaveOption.h; path = AVOS/AVOSCloud/Object/AVSaveOption.h; sourceTree = "<group>"; };
+		3B28FB0188E3B7CEBB62635D0A5634DA /* AVOSCloud-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVOSCloud-prefix.pch"; sourceTree = "<group>"; };
+		3C836E4F86815BDF0D4D8047359F39F1 /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Storage/Runtime.swift; sourceTree = "<group>"; };
+		3DFD7EDCF5922BE3A6CAB045838AEFC1 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Storage/Engine.swift; sourceTree = "<group>"; };
+		3E95E9A2438847199F05E8FEC8A1B673 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		3FE42C54F61DCF117BE3B5F2A430CC5E /* AVPush_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVPush_Internal.h; path = AVOS/AVOSCloud/Push/AVPush_Internal.h; sourceTree = "<group>"; };
+		4049E1077C2576AC426FB9A2FA797D32 /* AVHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVHTTPClient.h; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVHTTPClient.h; sourceTree = "<group>"; };
+		40514F1912835A3E7886D1C3AA1A69AB /* ObjectProfiler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectProfiler.swift; path = Sources/Storage/ObjectProfiler.swift; sourceTree = "<group>"; };
+		40E8A68011F3CD021F93C402A52B5423 /* LCURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCURLSessionManager.m; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCURLSessionManager.m; sourceTree = "<group>"; };
+		421CDC8D95BAFC1386EDDFE47DBF92C8 /* LCKeyValueSQL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCKeyValueSQL.h; path = AVOS/AVOSCloud/Utils/LCKeyValueSQL.h; sourceTree = "<group>"; };
+		4386D539D825AF7290572DDE88F5DDEE /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		43F67508B18301266EF47592D4F2B9EE /* LCDatabaseMigrator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCDatabaseMigrator.h; path = AVOS/AVOSCloud/Utils/LCDatabaseMigrator.h; sourceTree = "<group>"; };
+		4484136416790CA8593563C1D9F8FAB4 /* LCSSLChallenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCSSLChallenger.h; path = AVOS/AVOSCloud/Utils/LCSSLChallenger.h; sourceTree = "<group>"; };
+		46413F60C5C9D0CC606B53EA54E92605 /* AVGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVGlobal.h; path = AVOS/AVOSCloud/AVGlobal.h; sourceTree = "<group>"; };
+		4693A02056E749AC63E92E68EBA7ECCF /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVCloudQueryResult.h; path = AVOS/AVOSCloud/Query/AVCloudQueryResult.h; sourceTree = "<group>"; };
+		46C444847184624E2095313FD5D222BB /* AVCloudQueryResult_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVCloudQueryResult_Internal.h; path = AVOS/AVOSCloud/Query/AVCloudQueryResult_Internal.h; sourceTree = "<group>"; };
+		479E35BD008D913271F103B191C8B44A /* AVScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVScheduler.m; path = AVOS/AVOSCloud/Cache/AVScheduler.m; sourceTree = "<group>"; };
+		47AF84087FCA66F0C307F52BC1F8B0F6 /* AVCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVCloud.m; path = AVOS/AVOSCloud/CloudCode/AVCloud.m; sourceTree = "<group>"; };
+		47D82EECE8F490C7E7832BD23290562F /* AVObject_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVObject_Internal.h; path = AVOS/AVOSCloud/Object/AVObject_Internal.h; sourceTree = "<group>"; };
+		4975511DCE635443F9595DA0192B5744 /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSearchQuery.h; path = AVOS/AVOSCloud/Search/AVSearchQuery.h; sourceTree = "<group>"; };
+		4AAD8248350EB54688BEDCA743F7F43C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		4D52A204EBD79C72CA6CA3CEEA8625E1 /* AVCaptcha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVCaptcha.h; path = AVOS/AVOSCloud/Captcha/AVCaptcha.h; sourceTree = "<group>"; };
+		4DCC078F5A3340285F1EC571857F5450 /* AVPaasClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVPaasClient.m; path = AVOS/AVOSCloud/Request/AVPaasClient.m; sourceTree = "<group>"; };
+		4E9836B7423AF9FADD0E2A849DDF9819 /* AVAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVAnalytics.m; path = AVOS/AVOSCloud/Analytics/AVAnalytics.m; sourceTree = "<group>"; };
+		4F839F3298A1D77FE72AA63214679AD0 /* AVOSCloud.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AVOSCloud.xcconfig; sourceTree = "<group>"; };
+		502F05A58D5F011077DD58FC69088894 /* LeanCloud-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeanCloud-dummy.m"; sourceTree = "<group>"; };
+		51F990BC5AC6F401B3ACC4A48C2292CD /* NSDictionary+LCHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LCHash.m"; path = "AVOS/AVOSCloud/Utils/NSDictionary+LCHash.m"; sourceTree = "<group>"; };
+		520C6DAD1CCAE87E1B38D5FD221B533E /* AFNetworkingFix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkingFix.h; path = AVOS/AVOSCloud/Request/AFNetworkingFix.h; sourceTree = "<group>"; };
+		52553A42C22E8DD9BBC9CDBB9757FB47 /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AVObject+Subclass.h"; path = "AVOS/AVOSCloud/Object/AVObject+Subclass.h"; sourceTree = "<group>"; };
+		53E878D5ED9B09A036041E9E812DBAF0 /* LCDatabaseMigrator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCDatabaseMigrator.m; path = AVOS/AVOSCloud/Utils/LCDatabaseMigrator.m; sourceTree = "<group>"; };
+		563BD3ABA797243630CCB09D81D3C1ED /* AVAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVAnonymousUtils.m; path = AVOS/AVOSCloud/User/AVAnonymousUtils.m; sourceTree = "<group>"; };
+		58CA2C91BBB18411012DBDEDE01A57B3 /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVObject.h; path = AVOS/AVOSCloud/Object/AVObject.h; sourceTree = "<group>"; };
+		58DFAA5B7CE97D55639FC3B70636DEF5 /* AVOSCloud-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVOSCloud-umbrella.h"; sourceTree = "<group>"; };
+		59086E8F7B36A4FFB75E618D6865671D /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Storage/Configuration.swift; sourceTree = "<group>"; };
+		598E639267C022BA6430397D9B139B72 /* Pods-HBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBook.release.xcconfig"; sourceTree = "<group>"; };
+		5A2D6BB4CC05AF1E042514A47154A48C /* AVDuration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVDuration.m; path = AVOS/AVOSCloud/Analytics/AVDuration.m; sourceTree = "<group>"; };
+		5A3B765FDBA13B1805B3A4D5C24517B5 /* AVDynamicObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVDynamicObject.m; path = AVOS/AVOSCloud/Utils/AVDynamicObject.m; sourceTree = "<group>"; };
+		5ACF66290F8CE03942081464CF408A3C /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = Sources/Storage/Utility.swift; sourceTree = "<group>"; };
+		5B582FF76D2D205190A8131C14C427AC /* AVPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVPush.m; path = AVOS/AVOSCloud/Push/AVPush.m; sourceTree = "<group>"; };
+		5DADC9A98A81B918997E3D812FA95C2A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		5FC6A5A54BB7F11ADADEDBBA15D161BB /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSubclassing.h; path = AVOS/AVOSCloud/Object/AVSubclassing.h; sourceTree = "<group>"; };
+		6031050434BC14B54C02BBDFDE6B3540 /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnonymousUtils.h; path = AVOS/AVOSCloud/User/AVAnonymousUtils.h; sourceTree = "<group>"; };
+		6069C28547EFBD0BF87F4C5DDD99EFF4 /* Pods-HBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBook-frameworks.sh"; sourceTree = "<group>"; };
+		6102E155AE84322E271DBA8DDF18D377 /* AVImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVImageRequestOperation.h; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVImageRequestOperation.h; sourceTree = "<group>"; };
+		61707040D2883D631BA02A25C97CD0FD /* BatchRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatchRequest.swift; path = Sources/Storage/BatchRequest.swift; sourceTree = "<group>"; };
+		62096582CB31F969D381C27020BE2C58 /* LCDatabaseCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCDatabaseCoordinator.m; path = AVOS/AVOSCloud/Utils/LCDatabaseCoordinator.m; sourceTree = "<group>"; };
+		63AA86079B923B9605C52EDDBDC80437 /* AVConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVConfiguration.m; path = AVOS/AVOSCloud/AVConfiguration.m; sourceTree = "<group>"; };
+		63D73B647FBF745E546C18B358C1704C /* LeanCloud.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LeanCloud.swift; path = Sources/Storage/LeanCloud.swift; sourceTree = "<group>"; };
+		64A19E1E8A1E860F024C8DCE5B92551D /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnalytics.h; path = AVOS/AVOSCloud/Analytics/AVAnalytics.h; sourceTree = "<group>"; };
+		64B17C1C3BF37622112B826A5D20F922 /* AVUploaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVUploaderManager.h; path = AVOS/AVOSCloud/File/AVUploaderManager.h; sourceTree = "<group>"; };
+		65B5954D43842806EA01AA10090CFCD0 /* LCNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCNetworking.h; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCNetworking.h; sourceTree = "<group>"; };
+		660D6D2D84248F642CD0BE739A1548AB /* LCObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCObserver.m; path = AVOS/AVOSCloud/ThirdParty/COSObserver/LCObserver.m; sourceTree = "<group>"; };
+		6784B63CA9344F8C1410595445F96E25 /* AVOSCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AVOSCloud.framework; path = AVOSCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E732089ECA00CDFBF90211D2E1A3BD /* AVNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVNetworkActivityIndicatorManager.m; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		6A8A323903CD33B89EC516A09728E959 /* AVSMS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVSMS.m; path = AVOS/AVOSCloud/SMS/AVSMS.m; sourceTree = "<group>"; };
+		6B0AA3D47D576805264BF394DD9B304E /* LCNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCNetworkReachabilityManager.h; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		6BDB6228FB2457EEE6E2AA40734FBBAB /* AVOSCloud-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVOSCloud-dummy.m"; sourceTree = "<group>"; };
+		6D5787178D3D0F9BB5EFD621476A7E7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705E84FF9698D348D98BEE903ECA6C0C /* Null.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Null.swift; path = Sources/Storage/DataType/Null.swift; sourceTree = "<group>"; };
+		706A2CC719EECD9D6B536DBAC5F43506 /* AVSaveOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVSaveOption.m; path = AVOS/AVOSCloud/Object/AVSaveOption.m; sourceTree = "<group>"; };
+		74CB1ED5EBE3233BC22AB55992809BA9 /* LCDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCDatabaseQueue.h; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabaseQueue.h; sourceTree = "<group>"; };
+		74F837CABA1AE8559EE070220CA53E4D /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = AVOS/AVOSCloud/ThirdParty/libextobjc/EXTScope.m; sourceTree = "<group>"; };
+		7517477793A66B54E3D757C694F6F3EB /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		755952BF5BCF40EE7F64AAEFEF73AE40 /* AVPaasClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVPaasClient.h; path = AVOS/AVOSCloud/Request/AVPaasClient.h; sourceTree = "<group>"; };
+		7559DC09D79A4975E5B9442664E3B78D /* AVScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVScheduler.h; path = AVOS/AVOSCloud/Cache/AVScheduler.h; sourceTree = "<group>"; };
+		7588E6D1E387156C8C6DDB3CA7ADC44B /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVRole.h; path = AVOS/AVOSCloud/ACL/AVRole.h; sourceTree = "<group>"; };
+		75F004B7EC63C3D9F24B5B21ED79619E /* UserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserAgent.h; path = AVOS/AVOSCloud/Utils/UserAgent.h; sourceTree = "<group>"; };
+		76A8E3965DA7A5EDE308699E94E64538 /* AVGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVGeoPoint.m; path = AVOS/AVOSCloud/Geo/AVGeoPoint.m; sourceTree = "<group>"; };
+		76F363609DB56FC5611AF22E5F5C9840 /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVQuery.h; path = AVOS/AVOSCloud/Query/AVQuery.h; sourceTree = "<group>"; };
+		791DA0E0828A2ACD35A1D9ED41572B95 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		79505F0496B8EE7C3ACECC7419141883 /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVACL.h; path = AVOS/AVOSCloud/ACL/AVACL.h; sourceTree = "<group>"; };
+		7A40E13F0B61AF435B0BB0E6EE0A665D /* LCRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCRouter.m; path = AVOS/AVOSCloud/Router/LCRouter.m; sourceTree = "<group>"; };
+		7BBCC835D58A2C457FCA9FCDF2B8A8CD /* LCSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCSecurityPolicy.m; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCSecurityPolicy.m; sourceTree = "<group>"; };
+		7C851EC1716ED6CF603419C5EE1B84D0 /* LeanCloud.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeanCloud.xcconfig; sourceTree = "<group>"; };
+		7D6B8F1B3EC51D58F7115713ED7FBF23 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB2C058D3A0AED863E21D97081ED1B9 /* AVNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVNetworkActivityIndicatorManager.h; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		7E6AFDB4C1BE785858FA87EB2363BE52 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Sources/Storage/DataType/Data.swift; sourceTree = "<group>"; };
+		7EE620A2FF35E651A37FF29BC9AE9785 /* LCDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCDatabasePool.m; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabasePool.m; sourceTree = "<group>"; };
+		80EFEE2405737504C037B9CB025468D8 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		815A935F5A1C7279E3470E83D2831366 /* AVLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVLocationManager.m; path = AVOS/AVOSCloud/Geo/AVLocationManager.m; sourceTree = "<group>"; };
+		81980E4BBC0AD600A89CA95B9A40D0CE /* AVUploaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVUploaderManager.m; path = AVOS/AVOSCloud/File/AVUploaderManager.m; sourceTree = "<group>"; };
+		83023B761657C739CA1B4240C440947C /* AVQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVQuery.m; path = AVOS/AVOSCloud/Query/AVQuery.m; sourceTree = "<group>"; };
+		8361B5532FA3809634720CA1EDDF89D0 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		83C7E566AF210E1345AE8B2885E4B029 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		85D43A671778A9DEF57C92425A2CA6FB /* AVRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVRequestOperation.m; path = AVOS/AVOSCloud/Request/AVRequestOperation.m; sourceTree = "<group>"; };
+		85E0216C9C1E9F1B5F7D0202ACD8D543 /* AVCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVCacheManager.h; path = AVOS/AVOSCloud/Cache/AVCacheManager.h; sourceTree = "<group>"; };
+		8619C438C0468B1B86D56336E1898914 /* AVOSCloud.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AVOSCloud.modulemap; sourceTree = "<group>"; };
+		86204186CF6C06C19A6B7F27556957D3 /* Object.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Object.swift; path = Sources/Storage/DataType/Object.swift; sourceTree = "<group>"; };
+		86375AC9254AF9E32B913F04527F59EA /* AVQuery_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVQuery_Internal.h; path = AVOS/AVOSCloud/Query/AVQuery_Internal.h; sourceTree = "<group>"; };
+		868CC2A92452E4BF1F6170F5F4524028 /* AVFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVFile.m; path = AVOS/AVOSCloud/File/AVFile.m; sourceTree = "<group>"; };
+		86B71B15372591F96AF439819D069C6D /* ObjectUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectUpdater.swift; path = Sources/Storage/ObjectUpdater.swift; sourceTree = "<group>"; };
+		8764D1F3675DABA0CEAA469251098A80 /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSearchSortBuilder.h; path = AVOS/AVOSCloud/Search/AVSearchSortBuilder.h; sourceTree = "<group>"; };
+		87A768DAB93121C9127BF4FD327BCE83 /* AVAnalyticsUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVAnalyticsUtils.m; path = AVOS/AVOSCloud/Analytics/AVAnalyticsUtils.m; sourceTree = "<group>"; };
+		8833B8910B9D5D1F7D05F160CC67D701 /* LCDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCDB.h; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCDB.h; sourceTree = "<group>"; };
+		888FC5822C0335EBD05AB95836454231 /* AVOSCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVOSCloud.m; path = AVOS/AVOSCloud/AVOSCloud.m; sourceTree = "<group>"; };
+		8ABCBC2ABF75BC7FF7F5EB4DC3C7EC6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B17783AE70BA5FCB6D8735895A82158 /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVLogger.h; path = AVOS/AVOSCloud/Utils/AVLogger.h; sourceTree = "<group>"; };
+		8D732E02F103A40B8E5E5AF48D52A434 /* AVKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVKeychain.m; path = AVOS/AVOSCloud/ThirdParty/JNKeychain/AVKeychain.m; sourceTree = "<group>"; };
+		8DFDB290D3A3957BE27CCD8C46D95387 /* AVRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVRelation.m; path = AVOS/AVOSCloud/Object/AVRelation.m; sourceTree = "<group>"; };
+		8E4F35CF18E5AE8C60609A98098DE82D /* AVAnalyticsSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVAnalyticsSession.m; path = AVOS/AVOSCloud/Analytics/AVAnalyticsSession.m; sourceTree = "<group>"; };
+		8F1A8FF22D009979C030FAAADE91A9FC /* AVJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVJSONRequestOperation.h; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVJSONRequestOperation.h; sourceTree = "<group>"; };
+		8F23AEF130C68C77BAA50858DFD44580 /* AVObjectUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVObjectUtils.h; path = AVOS/AVOSCloud/Object/AVObjectUtils.h; sourceTree = "<group>"; };
+		9100ECC09F8F9C81FB38BFD885BB8244 /* LCURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCURLSessionManager.h; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCURLSessionManager.h; sourceTree = "<group>"; };
+		921806815BC2D471AFEBF8FB513DEBF7 /* Operation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operation.swift; path = Sources/Storage/Operation.swift; sourceTree = "<group>"; };
+		934EEA9F9897BE44454C6059CA0772EF /* LCDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCDatabaseAdditions.m; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabaseAdditions.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C322F20C5292C3BA8067D80B26FA84 /* CQLClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CQLClient.swift; path = Sources/Storage/CQLClient.swift; sourceTree = "<group>"; };
+		943CC256F6C9F0F9ED7BBFC563E2291F /* AVFriendQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVFriendQuery.m; path = AVOS/AVOSCloud/Query/AVFriendQuery.m; sourceTree = "<group>"; };
+		948215DDFAEF92EEEA3426AD4E961374 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = AVOS/AVOSCloud/ThirdParty/libextobjc/metamacros.h; sourceTree = "<group>"; };
+		963C59D42F77A747BB6CEA4767858733 /* AVPaasClient_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVPaasClient_internal.h; path = AVOS/AVOSCloud/Request/AVPaasClient_internal.h; sourceTree = "<group>"; };
+		97A130335F8A70B491021C3E2C971D95 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		97E422C21EDA02A5838E15702178AC3B /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/Storage/Library/MD5.swift; sourceTree = "<group>"; };
+		9898C116317676FDEED8FF94035A50BE /* AVFileHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVFileHTTPRequestOperation.h; path = AVOS/AVOSCloud/File/AVFileHTTPRequestOperation.h; sourceTree = "<group>"; };
+		997B87E05BEDF23FD1C3F0CDEEAB978F /* LCDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCDatabasePool.h; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabasePool.h; sourceTree = "<group>"; };
+		9B817D4F7CF1636D183E44B03AA4EFFD /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C683D69D12F69EA0820BC29CEE53406 /* LCURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCURLResponseSerialization.m; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCURLResponseSerialization.m; sourceTree = "<group>"; };
+		9DB1786B4844EA261D4B5EF518EE0038 /* LeanCloud-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeanCloud-prefix.pch"; sourceTree = "<group>"; };
+		9DB848C90230CBCCC17B5539D6251D03 /* ACL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ACL.swift; path = Sources/Storage/DataType/ACL.swift; sourceTree = "<group>"; };
+		9DD1329E617D00EEEA3ADC1D7A9C8A98 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		9EEC3027C688A03E48E9938D765E3762 /* AVErrorUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVErrorUtils.m; path = AVOS/AVOSCloud/Utils/AVErrorUtils.m; sourceTree = "<group>"; };
+		9FB9DA60D7822B1E43751784FC08760F /* LCHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCHTTPSessionManager.m; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCHTTPSessionManager.m; sourceTree = "<group>"; };
+		9FF5DD7261DA99BB9F46D95556EADBEC /* LCURLConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCURLConnection.h; path = AVOS/AVOSCloud/Utils/LCURLConnection.h; sourceTree = "<group>"; };
+		A0AD6678D81F26D63CA8ED846F59FEC6 /* LCResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCResultSet.m; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCResultSet.m; sourceTree = "<group>"; };
+		A347777853FB3C03F1AE3C31440A0C40 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		A38634B5E96C227E067B1EC57BA2A4A3 /* AVAnalyticsSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnalyticsSession.h; path = AVOS/AVOSCloud/Analytics/AVAnalyticsSession.h; sourceTree = "<group>"; };
+		A3B46E303D84A450D56E7CABD49EA4B7 /* AVAnalyticsImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVAnalyticsImpl.m; path = AVOS/AVOSCloud/Analytics/AVAnalyticsImpl.m; sourceTree = "<group>"; };
+		A4484B689BD3175597E168B38CFD1057 /* LCRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCRouter.h; path = AVOS/AVOSCloud/Router/LCRouter.h; sourceTree = "<group>"; };
+		A4CFE5D5E08C553798D561D902BC2913 /* AVHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVHTTPRequestOperation.h; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A5F639B82FF1E1E9C513F877F62406B5 /* LCURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCURLRequestSerialization.h; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCURLRequestSerialization.h; sourceTree = "<group>"; };
+		A64618EAA7AEE97C7A7EC6279F905B5A /* AVXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVXMLRequestOperation.h; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVXMLRequestOperation.h; sourceTree = "<group>"; };
+		A6E7BD023FFF8906203C4F659C245A16 /* AVExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVExceptionHandler.h; path = AVOS/AVOSCloud/Analytics/AVExceptionHandler.h; sourceTree = "<group>"; };
+		A722748F65E154FA60E14BBB2B772CD0 /* AVUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVUser.m; path = AVOS/AVOSCloud/User/AVUser.m; sourceTree = "<group>"; };
+		A9C0EF87C32ABF3D7591950493B7BD8B /* AVKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVKeychain.h; path = AVOS/AVOSCloud/ThirdParty/JNKeychain/AVKeychain.h; sourceTree = "<group>"; };
+		AA99A09825DD88B75E55567DDD4F1A06 /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bool.swift; path = Sources/Storage/DataType/Bool.swift; sourceTree = "<group>"; };
+		AB014AEFB961A9F3F37A257A64E7DF01 /* AVUser_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVUser_Internal.h; path = AVOS/AVOSCloud/User/AVUser_Internal.h; sourceTree = "<group>"; };
+		AB26E9236487A6BB874D42FF685A0E0E /* AVHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVHTTPClient.m; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVHTTPClient.m; sourceTree = "<group>"; };
+		AD23C7CF528BB4CFF301176FDA46CD9C /* AVDynamicObject_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVDynamicObject_Internal.h; path = AVOS/AVOSCloud/Utils/AVDynamicObject_Internal.h; sourceTree = "<group>"; };
+		AED0217CDB36E535CB3B055C1B5F68D7 /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVStatus.h; path = AVOS/AVOSCloud/Status/AVStatus.h; sourceTree = "<group>"; };
+		B12E9397E16F96AC5C38706FEC73A258 /* AVFriendQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVFriendQuery.h; path = AVOS/AVOSCloud/Query/AVFriendQuery.h; sourceTree = "<group>"; };
+		B22AC8429DFD097890E6E45A3C7BD1F3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		B24C2092424E319C49D1789578B24BBF /* AVPersistenceUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVPersistenceUtils.h; path = AVOS/AVOSCloud/Cache/AVPersistenceUtils.h; sourceTree = "<group>"; };
+		B31659ABBF413DE07E5DDFC538034C81 /* NSDictionary+LeanCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LeanCloud.m"; path = "AVOS/AVOSCloud/Utils/NSDictionary+LeanCloud.m"; sourceTree = "<group>"; };
+		B387ED1A5F9C16D4E861C13488A88A40 /* AVAnalyticsActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVAnalyticsActivity.m; path = AVOS/AVOSCloud/Analytics/AVAnalyticsActivity.m; sourceTree = "<group>"; };
+		B396957566AE0677B192CDAC001A160F /* AVUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVUtils.h; path = AVOS/AVOSCloud/Utils/AVUtils.h; sourceTree = "<group>"; };
+		B4B76CC90308DA173B648A64985A49BA /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVOSCloud.h; path = AVOS/AVOSCloud/AVOSCloud.h; sourceTree = "<group>"; };
+		B5B9554F867C400F6CE16D527A89E6E7 /* Number.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Number.swift; path = Sources/Storage/DataType/Number.swift; sourceTree = "<group>"; };
+		B80A614687531D1BDB5459133E843A1B /* AVXMLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVXMLRequestOperation.m; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVXMLRequestOperation.m; sourceTree = "<group>"; };
+		B8727BA6ADE93E29A9BCF94D491B0128 /* LCDatabaseCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCDatabaseCommon.h; path = AVOS/AVOSCloud/Utils/LCDatabaseCommon.h; sourceTree = "<group>"; };
+		B8CFB3455430B78E0753B549CFFF2149 /* AVDynamicObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVDynamicObject.h; path = AVOS/AVOSCloud/Utils/AVDynamicObject.h; sourceTree = "<group>"; };
+		B9AAFF83DBC1726E5CFF01EFA32E81B0 /* Pods-HBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HBook.modulemap"; sourceTree = "<group>"; };
+		B9FC60ECA4AF872B6D084C04652B4EEC /* AVSearchQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVSearchQuery.m; path = AVOS/AVOSCloud/Search/AVSearchQuery.m; sourceTree = "<group>"; };
+		BA51DBEFF4E73DB72AAC59B79C7A5738 /* LCURLConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCURLConnection.m; path = AVOS/AVOSCloud/Utils/LCURLConnection.m; sourceTree = "<group>"; };
+		BB9097FFE36B582A002B3F257C97D8A1 /* LCDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCDatabase.h; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabase.h; sourceTree = "<group>"; };
+		BBED8B3F296E7B00B8362FCB240622AC /* AVAnalyticsImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnalyticsImpl.h; path = AVOS/AVOSCloud/Analytics/AVAnalyticsImpl.h; sourceTree = "<group>"; };
+		BCD4970BDECB582F19088AFCBF67730A /* AVCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVCacheManager.m; path = AVOS/AVOSCloud/Cache/AVCacheManager.m; sourceTree = "<group>"; };
+		BCF59D7950F967EF08ABCC44D9720C39 /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVInstallation.h; path = AVOS/AVOSCloud/Push/AVInstallation.h; sourceTree = "<group>"; };
+		BD16DE13202707879CCE175110533AAD /* AVJSONRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVJSONRequestOperation.m; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVJSONRequestOperation.m; sourceTree = "<group>"; };
+		BD5EF8D9DC91DFA45EFD7CFB95F3D250 /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = User.swift; path = Sources/Storage/DataType/User.swift; sourceTree = "<group>"; };
+		BE380E1F4EDFE908042AE84012946141 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		BE9A0D78291394AE018CA41482CFA9DF /* AVOSCloud_Art.inc */ = {isa = PBXFileReference; includeInIndex = 1; name = AVOSCloud_Art.inc; path = AVOS/AVOSCloud/AVOSCloud_Art.inc; sourceTree = "<group>"; };
+		BEC0883388AB0AD76D94AF0575CABAAA /* Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = Sources/Storage/Extension.swift; sourceTree = "<group>"; };
+		BEC192D914877967E46E4DB6C0517423 /* AVACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVACL.m; path = AVOS/AVOSCloud/ACL/AVACL.m; sourceTree = "<group>"; };
+		BF7BBD069557A8499B6F5FB7096C83D1 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		C16E46FBAEC642D60262FF36C33F0B04 /* LCDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCDatabaseAdditions.h; path = AVOS/AVOSCloud/ThirdParty/LCDB/LCDatabaseAdditions.h; sourceTree = "<group>"; };
+		C1D013CD07E52C360635950A240AF80A /* AVStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVStatus.m; path = AVOS/AVOSCloud/Status/AVStatus.m; sourceTree = "<group>"; };
+		C3407B67B4DE6D1B7A29108B289CFC37 /* RESTClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RESTClient.swift; path = Sources/Storage/RESTClient.swift; sourceTree = "<group>"; };
+		C53EB6E9A1FD4927EC008A4D62CF0C88 /* AVRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVRole.m; path = AVOS/AVOSCloud/ACL/AVRole.m; sourceTree = "<group>"; };
+		C5913A271ABB678B5C66E0BA548220F9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		C96D076FF72E635909933F3B44A06FBD /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		CAA130AC92CA0630F5D617A1822AA32B /* AVObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVObject.m; path = AVOS/AVOSCloud/Object/AVObject.m; sourceTree = "<group>"; };
+		CB41C9C3CFD83284594DD4EF7C1998A0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		CC5E2068445574E1C78A0DCCB8E79BEC /* LCObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCObserver.h; path = AVOS/AVOSCloud/ThirdParty/COSObserver/LCObserver.h; sourceTree = "<group>"; };
+		CCD75CCDA5CAA6C71FFD76BBDCAA8F23 /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVRelation.h; path = AVOS/AVOSCloud/Object/AVRelation.h; sourceTree = "<group>"; };
+		CEC85E99744AD3FBD8DA664FBCE404D6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		D0739C6F9635F9A317DD6BB865338F8B /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Sources/Storage/DataType/Array.swift; sourceTree = "<group>"; };
+		D28BC650CB34D3F0C14880CA908B284B /* SMS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMS.swift; path = Sources/Storage/SMS.swift; sourceTree = "<group>"; };
+		D33AD13548AF094508AF9256BD7E6A64 /* AVObjectUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVObjectUtils.m; path = AVOS/AVOSCloud/Object/AVObjectUtils.m; sourceTree = "<group>"; };
+		D5BD4F3F3A873209EE0F0E7232A9A51F /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		D665C1699595C5C591AF53D5A83989CF /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVPush.h; path = AVOS/AVOSCloud/Push/AVPush.h; sourceTree = "<group>"; };
+		D6A9E59F9050DD33270A85E5E01543A5 /* LeanCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LeanCloud.framework; path = LeanCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC035E2AB8613A19BEB8B0ACE45753F /* AVRelation_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVRelation_Internal.h; path = AVOS/AVOSCloud/Object/AVRelation_Internal.h; sourceTree = "<group>"; };
+		DBCC33D0A385301B2508F5A59D67F62A /* LCKeyValueStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCKeyValueStore.h; path = AVOS/AVOSCloud/Utils/LCKeyValueStore.h; sourceTree = "<group>"; };
+		DD4004D8B82402EF2647544B60FCE814 /* AVImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVImageRequestOperation.m; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVImageRequestOperation.m; sourceTree = "<group>"; };
+		DEA6093177967203C63A50C20B09B75C /* AVCaptcha.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVCaptcha.m; path = AVOS/AVOSCloud/Captcha/AVCaptcha.m; sourceTree = "<group>"; };
+		DF47A32032BAA257858F3F50B5416BEC /* SDMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDMacros.h; path = AVOS/AVOSCloud/ThirdParty/SDMacros/SDMacros.h; sourceTree = "<group>"; };
+		DFAACFAC3FE49603958E2FFF10E432D7 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = AVOS/AVOSCloud/ThirdParty/libextobjc/EXTScope.h; sourceTree = "<group>"; };
+		E2B3BDD76D47F24D74384BBE569A931B /* AVCloud_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVCloud_Internal.h; path = AVOS/AVOSCloud/CloudCode/AVCloud_Internal.h; sourceTree = "<group>"; };
+		E3382E7433D6685FCD21E4E9CCD7C086 /* AVDuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVDuration.h; path = AVOS/AVOSCloud/Analytics/AVDuration.h; sourceTree = "<group>"; };
+		E3FB19277C03A6F4734A8D900BE1A0A4 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		E4165F177A24A969E03B007A024F36CA /* AVCloudQueryResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVCloudQueryResult.m; path = AVOS/AVOSCloud/Query/AVCloudQueryResult.m; sourceTree = "<group>"; };
+		E493CE12E31DBCA40F1798338519A619 /* NSDictionary+LCHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LCHash.h"; path = "AVOS/AVOSCloud/Utils/NSDictionary+LCHash.h"; sourceTree = "<group>"; };
+		E6AFC05A5BFD1B34FB02C0759B88869C /* Role.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Role.swift; path = Sources/Storage/DataType/Role.swift; sourceTree = "<group>"; };
+		E74114F98DA02DF9E773A51FB6147B7F /* AVPartialInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVPartialInputStream.h; path = AVOS/AVOSCloud/File/AVPartialInputStream.h; sourceTree = "<group>"; };
+		E77ED9E529129A49864AB9710FF79C18 /* AVConfiguration_extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVConfiguration_extension.h; path = AVOS/AVOSCloud/AVConfiguration_extension.h; sourceTree = "<group>"; };
+		E7A874934B79B3EB0AE2346814E596E9 /* Pods-HBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBook-dummy.m"; sourceTree = "<group>"; };
+		E9A971F3F7D7619B060EF570C1C12C76 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Sources/Storage/Request.swift; sourceTree = "<group>"; };
+		EA28E39DF379AD2C2E5EDC5F4C9810F5 /* AVAnalytics_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnalytics_Internal.h; path = AVOS/AVOSCloud/Analytics/AVAnalytics_Internal.h; sourceTree = "<group>"; };
+		EB67BDFAF87758920734915315D46227 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EF1D8F73A8154A0CD955209E9932DDE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA99F195F44D0A85EFF7993A7629FB5 /* AVFileHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVFileHTTPRequestOperation.m; path = AVOS/AVOSCloud/File/AVFileHTTPRequestOperation.m; sourceTree = "<group>"; };
+		F0156892FBA45F90AC7D0D42D08F9FF4 /* LCDatabaseCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCDatabaseCoordinator.h; path = AVOS/AVOSCloud/Utils/LCDatabaseCoordinator.h; sourceTree = "<group>"; };
+		F0B465503F4CD77DB1F6FF3761639D5B /* AVRequestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVRequestManager.h; path = AVOS/AVOSCloud/Object/AVRequestManager.h; sourceTree = "<group>"; };
+		F0B73629F733E1C1C4B49C6D356CEA0B /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		F1AEEBFFBB3F580830C04F46A3CEFF18 /* LCHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCHTTPSessionManager.h; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCHTTPSessionManager.h; sourceTree = "<group>"; };
+		F1EA0E4937AFF74A87EA01AA4AF1FA25 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/Storage/Logger.swift; sourceTree = "<group>"; };
+		F304FE128512E414A5B2EC605957EA20 /* AVLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVLocationManager.h; path = AVOS/AVOSCloud/Geo/AVLocationManager.h; sourceTree = "<group>"; };
+		F36F7AC1094442716856576328283D17 /* AVURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVURLConnectionOperation.h; path = AVOS/AVOSCloud/ThirdParty/AFNetworking/AVURLConnectionOperation.h; sourceTree = "<group>"; };
+		F373A7CB78BE5704F52DA244FB6EE7F1 /* LeanCloud.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LeanCloud.modulemap; sourceTree = "<group>"; };
+		F439E3C9B598E9A2184304C9DCA236A5 /* AVConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVConfiguration.h; path = AVOS/AVOSCloud/AVConfiguration.h; sourceTree = "<group>"; };
+		F5A9246010FE0C6C1A7EFED8461E9C8A /* AVUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AVUtils.m; path = AVOS/AVOSCloud/Utils/AVUtils.m; sourceTree = "<group>"; };
+		F613826888EBDD46CF2B443BC6067C9E /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Storage/Error.swift; sourceTree = "<group>"; };
+		F7A97BB8071C60F41CDF4B478E046F2B /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = Sources/Storage/DataType/Dictionary.swift; sourceTree = "<group>"; };
+		F817FF9BD8C036950B967BDA17F4721F /* LCSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCSecurityPolicy.h; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCSecurityPolicy.h; sourceTree = "<group>"; };
+		F8745777308355C8DE14B8C218AC490A /* AVRole_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVRole_Internal.h; path = AVOS/AVOSCloud/ACL/AVRole_Internal.h; sourceTree = "<group>"; };
+		F9569D888E9DC4277BB4DB3B5F0E5E43 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Sources/Storage/Response.swift; sourceTree = "<group>"; };
+		F9F65A1674887CD314AA56DE5893C0EB /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/Storage/DataType/Date.swift; sourceTree = "<group>"; };
+		FA05E996995EF032D7786A104D82469E /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVGeoPoint.h; path = AVOS/AVOSCloud/Geo/AVGeoPoint.h; sourceTree = "<group>"; };
+		FAA7B8B654799DDBA294A8E36747FC0D /* GeoPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeoPoint.swift; path = Sources/Storage/DataType/GeoPoint.swift; sourceTree = "<group>"; };
+		FAC7522CD0743AD384B066F987CB16CF /* LCNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCNetworkReachabilityManager.m; path = AVOS/AVOSCloud/ThirdParty/LCNetworking/LCNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		FAE2A82AFF0BDAF40F720F543813952F /* AVRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVRequestOperation.h; path = AVOS/AVOSCloud/Request/AVRequestOperation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E74F95CD920FFB9631E3F717B2E9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217CD5CC8604FB1BE201562886736B05 /* CFNetwork.framework in Frameworks */,
+				60BE0BCB9073AFD1E0F0A55676262B06 /* CoreGraphics.framework in Frameworks */,
+				59B298FF26567A947281C4765710D522 /* CoreLocation.framework in Frameworks */,
+				48706B2CF0DA96C58A75D873A4746253 /* CoreTelephony.framework in Frameworks */,
+				FD73A2168B441C9C589E96829D24DFCF /* Foundation.framework in Frameworks */,
+				B434690C6CB38C259386B629CED3568B /* MobileCoreServices.framework in Frameworks */,
+				E71848C55D36F71C0CF53EA74D4B4E8F /* QuartzCore.framework in Frameworks */,
+				A47C70840C877618AF9B8D92A71667A6 /* Security.framework in Frameworks */,
+				CB1148A983B3AE902AC271E342AD09A0 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B377E3247B723B8BF4A8E9E14A90292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A717F953F29696941D24E42865CD366A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A544F0879B4E8764FEA87D274BB9366C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13F3D041EDB56CF59AF570808D5998C /* Alamofire.framework in Frameworks */,
+				53E138FDF3D92A2232BBBDBF70DCCEB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B627C1932B5493A18601212295425C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8619C438C0468B1B86D56336E1898914 /* AVOSCloud.modulemap */,
+				4F839F3298A1D77FE72AA63214679AD0 /* AVOSCloud.xcconfig */,
+				6BDB6228FB2457EEE6E2AA40734FBBAB /* AVOSCloud-dummy.m */,
+				3B28FB0188E3B7CEBB62635D0A5634DA /* AVOSCloud-prefix.pch */,
+				58DFAA5B7CE97D55639FC3B70636DEF5 /* AVOSCloud-umbrella.h */,
+				6D5787178D3D0F9BB5EFD621476A7E7D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AVOSCloud";
+			sourceTree = "<group>";
+		};
+		0D88E03558CCB383AEB58F76491BB6D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0819B1BD2F78FC12EC52B6831194DC28 /* Alamofire.modulemap */,
+				7517477793A66B54E3D757C694F6F3EB /* Alamofire.xcconfig */,
+				CB41C9C3CFD83284594DD4EF7C1998A0 /* Alamofire-dummy.m */,
+				1CF04C37EBA2815D4285D49238B58781 /* Alamofire-prefix.pch */,
+				A347777853FB3C03F1AE3C31440A0C40 /* Alamofire-umbrella.h */,
+				0D213595B96FD649EE05E505F4002964 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		2FF268B2990A8D4882839AFBB26012AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCFE18182776D891DCB5A7DD3D5E9E17 /* Pods-HBook */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44AB680698E0B47C82C3418E07E1E3EF /* LeanCloud */ = {
+			isa = PBXGroup;
+			children = (
+				E14596442A92C728875FAEFC385584D3 /* Storage */,
+				D86823989889EF7C6AB5E329D5C25E14 /* Support Files */,
+			);
+			name = LeanCloud;
+			path = LeanCloud;
+			sourceTree = "<group>";
+		};
+		4AA1D8B5B5E79F4517DD25FE83C72988 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				F0B73629F733E1C1C4B49C6D356CEA0B /* AFError.swift */,
+				4386D539D825AF7290572DDE88F5DDEE /* Alamofire.swift */,
+				3E95E9A2438847199F05E8FEC8A1B673 /* DispatchQueue+Alamofire.swift */,
+				80EFEE2405737504C037B9CB025468D8 /* MultipartFormData.swift */,
+				BE380E1F4EDFE908042AE84012946141 /* NetworkReachabilityManager.swift */,
+				E3FB19277C03A6F4734A8D900BE1A0A4 /* Notifications.swift */,
+				4AAD8248350EB54688BEDCA743F7F43C /* ParameterEncoding.swift */,
+				5DADC9A98A81B918997E3D812FA95C2A /* Request.swift */,
+				791DA0E0828A2ACD35A1D9ED41572B95 /* Response.swift */,
+				BF7BBD069557A8499B6F5FB7096C83D1 /* ResponseSerialization.swift */,
+				97A130335F8A70B491021C3E2C971D95 /* Result.swift */,
+				9DD1329E617D00EEEA3ADC1D7A9C8A98 /* ServerTrustPolicy.swift */,
+				3372369C91D1132F79898A181DFA6D78 /* SessionDelegate.swift */,
+				C96D076FF72E635909933F3B44A06FBD /* SessionManager.swift */,
+				23BDD214FDA34F99982E9478D4974074 /* TaskDelegate.swift */,
+				8361B5532FA3809634720CA1EDDF89D0 /* Timeline.swift */,
+				D5BD4F3F3A873209EE0F0E7232A9A51F /* Validation.swift */,
+				0D88E03558CCB383AEB58F76491BB6D6 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		7BF90AE1B2764653883D5CEC55EE4A56 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC85E99744AD3FBD8DA664FBCE404D6 /* CFNetwork.framework */,
+				15F74D3E299FBF89C25C53519E526AD8 /* CoreGraphics.framework */,
+				C5913A271ABB678B5C66E0BA548220F9 /* CoreLocation.framework */,
+				83C7E566AF210E1345AE8B2885E4B029 /* CoreTelephony.framework */,
+				8ABCBC2ABF75BC7FF7F5EB4DC3C7EC6F /* Foundation.framework */,
+				B22AC8429DFD097890E6E45A3C7BD1F3 /* MobileCoreServices.framework */,
+				EB67BDFAF87758920734915315D46227 /* QuartzCore.framework */,
+				2A0D980C3D20399E907E1694B9CC960E /* Security.framework */,
+				3808E355D12B860F71B7E07258280D44 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AA373338A09E9A4F0F69F1D1B0153916 /* Frameworks */,
+				E9835714AB802D3D5D7CC5A1C05EC062 /* Pods */,
+				80FE255E7FED1D95BB64D72AFF024A5E /* Products */,
+				2FF268B2990A8D4882839AFBB26012AE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80FE255E7FED1D95BB64D72AFF024A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B817D4F7CF1636D183E44B03AA4EFFD /* Alamofire.framework */,
+				6784B63CA9344F8C1410595445F96E25 /* AVOSCloud.framework */,
+				D6A9E59F9050DD33270A85E5E01543A5 /* LeanCloud.framework */,
+				2FC757646910A69DABB2015EBB3145C2 /* Pods_HBook.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8311CCBDC2166466097538581234EBC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE9A0D78291394AE018CA41482CFA9DF /* AVOSCloud_Art.inc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		85F3BAFF8D7EA51ABCF15931F04A7CD7 /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				520C6DAD1CCAE87E1B38D5FD221B533E /* AFNetworkingFix.h */,
+				79505F0496B8EE7C3ACECC7419141883 /* AVACL.h */,
+				BEC192D914877967E46E4DB6C0517423 /* AVACL.m */,
+				27636F24F2FA0965A6A72C92AE5A9AA5 /* AVACL_Internal.h */,
+				64A19E1E8A1E860F024C8DCE5B92551D /* AVAnalytics.h */,
+				4E9836B7423AF9FADD0E2A849DDF9819 /* AVAnalytics.m */,
+				EA28E39DF379AD2C2E5EDC5F4C9810F5 /* AVAnalytics_Internal.h */,
+				02368ED4695BECC9A7EF4108DFDA5C5D /* AVAnalyticsActivity.h */,
+				B387ED1A5F9C16D4E861C13488A88A40 /* AVAnalyticsActivity.m */,
+				BBED8B3F296E7B00B8362FCB240622AC /* AVAnalyticsImpl.h */,
+				A3B46E303D84A450D56E7CABD49EA4B7 /* AVAnalyticsImpl.m */,
+				A38634B5E96C227E067B1EC57BA2A4A3 /* AVAnalyticsSession.h */,
+				8E4F35CF18E5AE8C60609A98098DE82D /* AVAnalyticsSession.m */,
+				0539BC92D98E7D0ECC457929B3021E7D /* AVAnalyticsUtils.h */,
+				87A768DAB93121C9127BF4FD327BCE83 /* AVAnalyticsUtils.m */,
+				6031050434BC14B54C02BBDFDE6B3540 /* AVAnonymousUtils.h */,
+				563BD3ABA797243630CCB09D81D3C1ED /* AVAnonymousUtils.m */,
+				263728BF0A8E20625AEB0C8C2847C8F2 /* AVAvailability.h */,
+				85E0216C9C1E9F1B5F7D0202ACD8D543 /* AVCacheManager.h */,
+				BCD4970BDECB582F19088AFCBF67730A /* AVCacheManager.m */,
+				4D52A204EBD79C72CA6CA3CEEA8625E1 /* AVCaptcha.h */,
+				DEA6093177967203C63A50C20B09B75C /* AVCaptcha.m */,
+				0ABFE3ECF76FA15E755C2ED57A406DBE /* AVCloud.h */,
+				47AF84087FCA66F0C307F52BC1F8B0F6 /* AVCloud.m */,
+				E2B3BDD76D47F24D74384BBE569A931B /* AVCloud_Internal.h */,
+				4693A02056E749AC63E92E68EBA7ECCF /* AVCloudQueryResult.h */,
+				E4165F177A24A969E03B007A024F36CA /* AVCloudQueryResult.m */,
+				46C444847184624E2095313FD5D222BB /* AVCloudQueryResult_Internal.h */,
+				F439E3C9B598E9A2184304C9DCA236A5 /* AVConfiguration.h */,
+				63AA86079B923B9605C52EDDBDC80437 /* AVConfiguration.m */,
+				E77ED9E529129A49864AB9710FF79C18 /* AVConfiguration_extension.h */,
+				1B81F6E35FE2226902D1A4C99A64150D /* AVConstants.h */,
+				E3382E7433D6685FCD21E4E9CCD7C086 /* AVDuration.h */,
+				5A2D6BB4CC05AF1E042514A47154A48C /* AVDuration.m */,
+				B8CFB3455430B78E0753B549CFFF2149 /* AVDynamicObject.h */,
+				5A3B765FDBA13B1805B3A4D5C24517B5 /* AVDynamicObject.m */,
+				AD23C7CF528BB4CFF301176FDA46CD9C /* AVDynamicObject_Internal.h */,
+				056A0B9B210E7EA33F210381771E9203 /* AVErrorUtils.h */,
+				9EEC3027C688A03E48E9938D765E3762 /* AVErrorUtils.m */,
+				A6E7BD023FFF8906203C4F659C245A16 /* AVExceptionHandler.h */,
+				19DCC99232107E9E54D731FB3CDF60D0 /* AVExceptionHandler.m */,
+				1B70E75F4C8171E1F85C6032B9535C76 /* AVFile.h */,
+				868CC2A92452E4BF1F6170F5F4524028 /* AVFile.m */,
+				01B03E62D3D0B558D25BFCF2FE54C9D2 /* AVFile_Internal.h */,
+				9898C116317676FDEED8FF94035A50BE /* AVFileHTTPRequestOperation.h */,
+				EFA99F195F44D0A85EFF7993A7629FB5 /* AVFileHTTPRequestOperation.m */,
+				294F8647D2B2A95D46D9923226EE6ACE /* AVFileQuery.h */,
+				209163208AB949CA69017A935D16BD4B /* AVFileQuery.m */,
+				B12E9397E16F96AC5C38706FEC73A258 /* AVFriendQuery.h */,
+				943CC256F6C9F0F9ED7BBFC563E2291F /* AVFriendQuery.m */,
+				FA05E996995EF032D7786A104D82469E /* AVGeoPoint.h */,
+				76A8E3965DA7A5EDE308699E94E64538 /* AVGeoPoint.m */,
+				2341AFBB45B0C1E27577E483C2C2C26D /* AVGeoPoint_Internal.h */,
+				46413F60C5C9D0CC606B53EA54E92605 /* AVGlobal.h */,
+				20CAE0BF60CFE3B2FD5817E633C5D426 /* AVHelpers.h */,
+				4049E1077C2576AC426FB9A2FA797D32 /* AVHTTPClient.h */,
+				AB26E9236487A6BB874D42FF685A0E0E /* AVHTTPClient.m */,
+				A4CFE5D5E08C553798D561D902BC2913 /* AVHTTPRequestOperation.h */,
+				26694408A62B7F89CC0ED17FDCA891CE /* AVHTTPRequestOperation.m */,
+				6102E155AE84322E271DBA8DDF18D377 /* AVImageRequestOperation.h */,
+				DD4004D8B82402EF2647544B60FCE814 /* AVImageRequestOperation.m */,
+				BCF59D7950F967EF08ABCC44D9720C39 /* AVInstallation.h */,
+				392A95079B4C329B1B8FF48990AD1AF9 /* AVInstallation.m */,
+				201B00E9BBA345C8F363295D95F25DED /* AVInstallation_Internal.h */,
+				8F1A8FF22D009979C030FAAADE91A9FC /* AVJSONRequestOperation.h */,
+				BD16DE13202707879CCE175110533AAD /* AVJSONRequestOperation.m */,
+				A9C0EF87C32ABF3D7591950493B7BD8B /* AVKeychain.h */,
+				8D732E02F103A40B8E5E5AF48D52A434 /* AVKeychain.m */,
+				F304FE128512E414A5B2EC605957EA20 /* AVLocationManager.h */,
+				815A935F5A1C7279E3470E83D2831366 /* AVLocationManager.m */,
+				8B17783AE70BA5FCB6D8735895A82158 /* AVLogger.h */,
+				0B60BDAC48D7BE468350705CA8402A4F /* AVLogger.m */,
+				7DB2C058D3A0AED863E21D97081ED1B9 /* AVNetworkActivityIndicatorManager.h */,
+				68E732089ECA00CDFBF90211D2E1A3BD /* AVNetworkActivityIndicatorManager.m */,
+				235602DB3AC687EAFB11FE1C86706AE2 /* AVNetworking.h */,
+				58CA2C91BBB18411012DBDEDE01A57B3 /* AVObject.h */,
+				CAA130AC92CA0630F5D617A1822AA32B /* AVObject.m */,
+				52553A42C22E8DD9BBC9CDBB9757FB47 /* AVObject+Subclass.h */,
+				47D82EECE8F490C7E7832BD23290562F /* AVObject_Internal.h */,
+				8F23AEF130C68C77BAA50858DFD44580 /* AVObjectUtils.h */,
+				D33AD13548AF094508AF9256BD7E6A64 /* AVObjectUtils.m */,
+				B4B76CC90308DA173B648A64985A49BA /* AVOSCloud.h */,
+				888FC5822C0335EBD05AB95836454231 /* AVOSCloud.m */,
+				1C0623C08F170879581F8CECA34528AD /* AVOSCloud_Internal.h */,
+				755952BF5BCF40EE7F64AAEFEF73AE40 /* AVPaasClient.h */,
+				4DCC078F5A3340285F1EC571857F5450 /* AVPaasClient.m */,
+				963C59D42F77A747BB6CEA4767858733 /* AVPaasClient_internal.h */,
+				E74114F98DA02DF9E773A51FB6147B7F /* AVPartialInputStream.h */,
+				20BA6AF7FAC532268922C73B3AED317C /* AVPartialInputStream.m */,
+				B24C2092424E319C49D1789578B24BBF /* AVPersistenceUtils.h */,
+				01C009747A4F4758A037A586E935CC8E /* AVPersistenceUtils.m */,
+				D665C1699595C5C591AF53D5A83989CF /* AVPush.h */,
+				5B582FF76D2D205190A8131C14C427AC /* AVPush.m */,
+				3FE42C54F61DCF117BE3B5F2A430CC5E /* AVPush_Internal.h */,
+				76F363609DB56FC5611AF22E5F5C9840 /* AVQuery.h */,
+				83023B761657C739CA1B4240C440947C /* AVQuery.m */,
+				86375AC9254AF9E32B913F04527F59EA /* AVQuery_Internal.h */,
+				02849F0C981FDB2278635EB6E51CBD07 /* AVReachability.h */,
+				3872552E2714C65EBF5B1B09BB966BE2 /* AVReachability.m */,
+				CCD75CCDA5CAA6C71FFD76BBDCAA8F23 /* AVRelation.h */,
+				8DFDB290D3A3957BE27CCD8C46D95387 /* AVRelation.m */,
+				DAC035E2AB8613A19BEB8B0ACE45753F /* AVRelation_Internal.h */,
+				F0B465503F4CD77DB1F6FF3761639D5B /* AVRequestManager.h */,
+				24FA1821DBD276D9AB7C8F11C1FB0163 /* AVRequestManager.m */,
+				FAE2A82AFF0BDAF40F720F543813952F /* AVRequestOperation.h */,
+				85D43A671778A9DEF57C92425A2CA6FB /* AVRequestOperation.m */,
+				7588E6D1E387156C8C6DDB3CA7ADC44B /* AVRole.h */,
+				C53EB6E9A1FD4927EC008A4D62CF0C88 /* AVRole.m */,
+				F8745777308355C8DE14B8C218AC490A /* AVRole_Internal.h */,
+				3ADB92197186D79E38F7BA79C1E4CB9D /* AVSaveOption.h */,
+				706A2CC719EECD9D6B536DBAC5F43506 /* AVSaveOption.m */,
+				2B1BEA0FF0353C53E7FFFC440E9464C3 /* AVSaveOption_internal.h */,
+				7559DC09D79A4975E5B9442664E3B78D /* AVScheduler.h */,
+				479E35BD008D913271F103B191C8B44A /* AVScheduler.m */,
+				4975511DCE635443F9595DA0192B5744 /* AVSearchQuery.h */,
+				B9FC60ECA4AF872B6D084C04652B4EEC /* AVSearchQuery.m */,
+				8764D1F3675DABA0CEAA469251098A80 /* AVSearchSortBuilder.h */,
+				09DA5419A840C921DE5FB0A8AFF5D3A4 /* AVSearchSortBuilder.m */,
+				2A13043C13D7C8BE99849695526525CA /* AVSMS.h */,
+				6A8A323903CD33B89EC516A09728E959 /* AVSMS.m */,
+				AED0217CDB36E535CB3B055C1B5F68D7 /* AVStatus.h */,
+				C1D013CD07E52C360635950A240AF80A /* AVStatus.m */,
+				5FC6A5A54BB7F11ADADEDBBA15D161BB /* AVSubclassing.h */,
+				64B17C1C3BF37622112B826A5D20F922 /* AVUploaderManager.h */,
+				81980E4BBC0AD600A89CA95B9A40D0CE /* AVUploaderManager.m */,
+				F36F7AC1094442716856576328283D17 /* AVURLConnectionOperation.h */,
+				173D9A1BB8D2356D193EE22F47F002EC /* AVURLConnectionOperation.m */,
+				35F7836AD5FC56F7712C2C8362643A67 /* AVUser.h */,
+				A722748F65E154FA60E14BBB2B772CD0 /* AVUser.m */,
+				AB014AEFB961A9F3F37A257A64E7DF01 /* AVUser_Internal.h */,
+				B396957566AE0677B192CDAC001A160F /* AVUtils.h */,
+				F5A9246010FE0C6C1A7EFED8461E9C8A /* AVUtils.m */,
+				A64618EAA7AEE97C7A7EC6279F905B5A /* AVXMLRequestOperation.h */,
+				B80A614687531D1BDB5459133E843A1B /* AVXMLRequestOperation.m */,
+				DFAACFAC3FE49603958E2FFF10E432D7 /* EXTScope.h */,
+				74F837CABA1AE8559EE070220CA53E4D /* EXTScope.m */,
+				BB9097FFE36B582A002B3F257C97D8A1 /* LCDatabase.h */,
+				27F6B284830339F626E794F7DFA1ED4D /* LCDatabase.m */,
+				C16E46FBAEC642D60262FF36C33F0B04 /* LCDatabaseAdditions.h */,
+				934EEA9F9897BE44454C6059CA0772EF /* LCDatabaseAdditions.m */,
+				B8727BA6ADE93E29A9BCF94D491B0128 /* LCDatabaseCommon.h */,
+				F0156892FBA45F90AC7D0D42D08F9FF4 /* LCDatabaseCoordinator.h */,
+				62096582CB31F969D381C27020BE2C58 /* LCDatabaseCoordinator.m */,
+				43F67508B18301266EF47592D4F2B9EE /* LCDatabaseMigrator.h */,
+				53E878D5ED9B09A036041E9E812DBAF0 /* LCDatabaseMigrator.m */,
+				997B87E05BEDF23FD1C3F0CDEEAB978F /* LCDatabasePool.h */,
+				7EE620A2FF35E651A37FF29BC9AE9785 /* LCDatabasePool.m */,
+				74CB1ED5EBE3233BC22AB55992809BA9 /* LCDatabaseQueue.h */,
+				33345A036EFF1A902EC6CBC0D1B5BA6B /* LCDatabaseQueue.m */,
+				8833B8910B9D5D1F7D05F160CC67D701 /* LCDB.h */,
+				F1AEEBFFBB3F580830C04F46A3CEFF18 /* LCHTTPSessionManager.h */,
+				9FB9DA60D7822B1E43751784FC08760F /* LCHTTPSessionManager.m */,
+				421CDC8D95BAFC1386EDDFE47DBF92C8 /* LCKeyValueSQL.h */,
+				DBCC33D0A385301B2508F5A59D67F62A /* LCKeyValueStore.h */,
+				289AFB6D7BB8DDA3401F9DCEC0BCA7D9 /* LCKeyValueStore.m */,
+				65B5954D43842806EA01AA10090CFCD0 /* LCNetworking.h */,
+				6B0AA3D47D576805264BF394DD9B304E /* LCNetworkReachabilityManager.h */,
+				FAC7522CD0743AD384B066F987CB16CF /* LCNetworkReachabilityManager.m */,
+				123439D5F18CC47C34BA0B2325E1B6C5 /* LCNetworkStatistics.h */,
+				2A29D09DB3A140B5BFCFDCACC697370B /* LCNetworkStatistics.m */,
+				CC5E2068445574E1C78A0DCCB8E79BEC /* LCObserver.h */,
+				660D6D2D84248F642CD0BE739A1548AB /* LCObserver.m */,
+				0942E9CB11C3509FC008FEFC9F405101 /* LCResultSet.h */,
+				A0AD6678D81F26D63CA8ED846F59FEC6 /* LCResultSet.m */,
+				A4484B689BD3175597E168B38CFD1057 /* LCRouter.h */,
+				7A40E13F0B61AF435B0BB0E6EE0A665D /* LCRouter.m */,
+				F817FF9BD8C036950B967BDA17F4721F /* LCSecurityPolicy.h */,
+				7BBCC835D58A2C457FCA9FCDF2B8A8CD /* LCSecurityPolicy.m */,
+				4484136416790CA8593563C1D9F8FAB4 /* LCSSLChallenger.h */,
+				10A8069F2E0B0CD5E8B69857778A097C /* LCSSLChallenger.m */,
+				9FF5DD7261DA99BB9F46D95556EADBEC /* LCURLConnection.h */,
+				BA51DBEFF4E73DB72AAC59B79C7A5738 /* LCURLConnection.m */,
+				A5F639B82FF1E1E9C513F877F62406B5 /* LCURLRequestSerialization.h */,
+				2C96D8B420CAED46AD0D15619F0FDB40 /* LCURLRequestSerialization.m */,
+				0F57F247C01F7771F87B19DA8432CA39 /* LCURLResponseSerialization.h */,
+				9C683D69D12F69EA0820BC29CEE53406 /* LCURLResponseSerialization.m */,
+				9100ECC09F8F9C81FB38BFD885BB8244 /* LCURLSessionManager.h */,
+				40E8A68011F3CD021F93C402A52B5423 /* LCURLSessionManager.m */,
+				948215DDFAEF92EEEA3426AD4E961374 /* metamacros.h */,
+				E493CE12E31DBCA40F1798338519A619 /* NSDictionary+LCHash.h */,
+				51F990BC5AC6F401B3ACC4A48C2292CD /* NSDictionary+LCHash.m */,
+				02EADD957352FF736B6002C46C42750A /* NSDictionary+LeanCloud.h */,
+				B31659ABBF413DE07E5DDFC538034C81 /* NSDictionary+LeanCloud.m */,
+				DF47A32032BAA257858F3F50B5416BEC /* SDMacros.h */,
+				75F004B7EC63C3D9F24B5B21ED79619E /* UserAgent.h */,
+				8311CCBDC2166466097538581234EBC3 /* Resources */,
+				04B627C1932B5493A18601212295425C /* Support Files */,
+			);
+			name = AVOSCloud;
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		AA373338A09E9A4F0F69F1D1B0153916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D6B8F1B3EC51D58F7115713ED7FBF23 /* Alamofire.framework */,
+				7BF90AE1B2764653883D5CEC55EE4A56 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCFE18182776D891DCB5A7DD3D5E9E17 /* Pods-HBook */ = {
+			isa = PBXGroup;
+			children = (
+				EF1D8F73A8154A0CD955209E9932DDE5 /* Info.plist */,
+				B9AAFF83DBC1726E5CFF01EFA32E81B0 /* Pods-HBook.modulemap */,
+				25AB80505F546FAF29D9A72C524B4552 /* Pods-HBook-acknowledgements.markdown */,
+				1F093396B7826302AB5C7C8969CDBE94 /* Pods-HBook-acknowledgements.plist */,
+				E7A874934B79B3EB0AE2346814E596E9 /* Pods-HBook-dummy.m */,
+				6069C28547EFBD0BF87F4C5DDD99EFF4 /* Pods-HBook-frameworks.sh */,
+				094110461BC929C5AC54CE313E96BA09 /* Pods-HBook-resources.sh */,
+				104BE27509F98334A701F31C99E90FC7 /* Pods-HBook-umbrella.h */,
+				2198BDE867BB9F819C256547B5E44C20 /* Pods-HBook.debug.xcconfig */,
+				598E639267C022BA6430397D9B139B72 /* Pods-HBook.release.xcconfig */,
+			);
+			name = "Pods-HBook";
+			path = "Target Support Files/Pods-HBook";
+			sourceTree = "<group>";
+		};
+		D86823989889EF7C6AB5E329D5C25E14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				147C34F0154EDE4713A1363E75F756DF /* Info.plist */,
+				F373A7CB78BE5704F52DA244FB6EE7F1 /* LeanCloud.modulemap */,
+				7C851EC1716ED6CF603419C5EE1B84D0 /* LeanCloud.xcconfig */,
+				502F05A58D5F011077DD58FC69088894 /* LeanCloud-dummy.m */,
+				9DB1786B4844EA261D4B5EF518EE0038 /* LeanCloud-prefix.pch */,
+				07508918351470B1F8F966BB9DAF468E /* LeanCloud-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LeanCloud";
+			sourceTree = "<group>";
+		};
+		E14596442A92C728875FAEFC385584D3 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				9DB848C90230CBCCC17B5539D6251D03 /* ACL.swift */,
+				D0739C6F9635F9A317DD6BB865338F8B /* Array.swift */,
+				61707040D2883D631BA02A25C97CD0FD /* BatchRequest.swift */,
+				AA99A09825DD88B75E55567DDD4F1A06 /* Bool.swift */,
+				59086E8F7B36A4FFB75E618D6865671D /* Configuration.swift */,
+				93C322F20C5292C3BA8067D80B26FA84 /* CQLClient.swift */,
+				7E6AFDB4C1BE785858FA87EB2363BE52 /* Data.swift */,
+				F9F65A1674887CD314AA56DE5893C0EB /* Date.swift */,
+				F7A97BB8071C60F41CDF4B478E046F2B /* Dictionary.swift */,
+				3DFD7EDCF5922BE3A6CAB045838AEFC1 /* Engine.swift */,
+				F613826888EBDD46CF2B443BC6067C9E /* Error.swift */,
+				BEC0883388AB0AD76D94AF0575CABAAA /* Extension.swift */,
+				FAA7B8B654799DDBA294A8E36747FC0D /* GeoPoint.swift */,
+				63D73B647FBF745E546C18B358C1704C /* LeanCloud.swift */,
+				F1EA0E4937AFF74A87EA01AA4AF1FA25 /* Logger.swift */,
+				97E422C21EDA02A5838E15702178AC3B /* MD5.swift */,
+				705E84FF9698D348D98BEE903ECA6C0C /* Null.swift */,
+				B5B9554F867C400F6CE16D527A89E6E7 /* Number.swift */,
+				86204186CF6C06C19A6B7F27556957D3 /* Object.swift */,
+				40514F1912835A3E7886D1C3AA1A69AB /* ObjectProfiler.swift */,
+				86B71B15372591F96AF439819D069C6D /* ObjectUpdater.swift */,
+				921806815BC2D471AFEBF8FB513DEBF7 /* Operation.swift */,
+				18C1C43E9ADACF76CE67EC6C83BB025F /* Query.swift */,
+				346CB503EE6F4811D6761E994FEF0E72 /* Relation.swift */,
+				E9A971F3F7D7619B060EF570C1C12C76 /* Request.swift */,
+				F9569D888E9DC4277BB4DB3B5F0E5E43 /* Response.swift */,
+				C3407B67B4DE6D1B7A29108B289CFC37 /* RESTClient.swift */,
+				038B1B9FD5C1516ADCA46F22E34EA6C9 /* Result.swift */,
+				E6AFC05A5BFD1B34FB02C0759B88869C /* Role.swift */,
+				3C836E4F86815BDF0D4D8047359F39F1 /* Runtime.swift */,
+				D28BC650CB34D3F0C14880CA908B284B /* SMS.swift */,
+				1D79B0503819A3E3F6531344A9F94EC2 /* String.swift */,
+				BD5EF8D9DC91DFA45EFD7CFB95F3D250 /* User.swift */,
+				5ACF66290F8CE03942081464CF408A3C /* Utility.swift */,
+				30790B5E65AE30984EE7AECCB65C22EF /* Value.swift */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+		E9835714AB802D3D5D7CC5A1C05EC062 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AA1D8B5B5E79F4517DD25FE83C72988 /* Alamofire */,
+				85F3BAFF8D7EA51ABCF15931F04A7CD7 /* AVOSCloud */,
+				44AB680698E0B47C82C3418E07E1E3EF /* LeanCloud */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D58E4E5202B826D9D1A01DD8FC3D18B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C20CF7BD78005C015AC14DA7FCDACA8 /* AFNetworkingFix.h in Headers */,
+				F06EF3D34355B620AFE4C38D77D7843D /* AVACL.h in Headers */,
+				F82CC4AEE80C3E105EF37274E32F6CA7 /* AVACL_Internal.h in Headers */,
+				AB712120969B49D99B6A5B83ACC29695 /* AVAnalytics.h in Headers */,
+				C5968953013E2CF541AFEA5B9B00445E /* AVAnalytics_Internal.h in Headers */,
+				07B5BE9570D4C41607AC3DEE44F9E01F /* AVAnalyticsActivity.h in Headers */,
+				94CA1F169602365B6813A3B05F83CB8C /* AVAnalyticsImpl.h in Headers */,
+				42817B6B8ECEE4C71B50E6F20D5D3BB1 /* AVAnalyticsSession.h in Headers */,
+				0201D9B0AED5C53D1F1955EB0B55A672 /* AVAnalyticsUtils.h in Headers */,
+				41C21BCF3647C6247C4AC1F9B93E34A3 /* AVAnonymousUtils.h in Headers */,
+				A67FBC7A583C97DB35252E1E37A18464 /* AVAvailability.h in Headers */,
+				ED8BE0C562D9DFDEDE5F9228F7060EF0 /* AVCacheManager.h in Headers */,
+				EB7E36D8A8D8F1FDF20D363A0D7FE3C6 /* AVCaptcha.h in Headers */,
+				3DD844C551CB65B79269FF8F00CA07FB /* AVCloud.h in Headers */,
+				5B0F4B235A0744F2A8E1345A82472E73 /* AVCloud_Internal.h in Headers */,
+				590E16110154D4D35AFEABADDE44EF23 /* AVCloudQueryResult.h in Headers */,
+				1A46B5C09FAAA2DBBA6EA18596600AC8 /* AVCloudQueryResult_Internal.h in Headers */,
+				B2BE4CCBB936FD9119B0079CEF9DF070 /* AVConfiguration.h in Headers */,
+				EC36664CE45FB5663F6150BCA08756A9 /* AVConfiguration_extension.h in Headers */,
+				2380837C51A6CED8DB81BB29C9101EBF /* AVConstants.h in Headers */,
+				F58500D8AF9AEE5F6CB62AF004DC5CC2 /* AVDuration.h in Headers */,
+				193E3592984557313599EBDC361DA51D /* AVDynamicObject.h in Headers */,
+				DA1D48166817800BD8FBC66B5D4E1968 /* AVDynamicObject_Internal.h in Headers */,
+				909E0C023B12F2F813AF89DA871D07D3 /* AVErrorUtils.h in Headers */,
+				FA45C76EF31536BD17FB92F15D8F37D9 /* AVExceptionHandler.h in Headers */,
+				C545DA7920757D2BC9C8F29DFD2D8FEB /* AVFile.h in Headers */,
+				A54827811EAC0CDBAE437065179811AC /* AVFile_Internal.h in Headers */,
+				ED18FD0FCF0FAC3C8DBDD1A0CCD48A53 /* AVFileHTTPRequestOperation.h in Headers */,
+				DDE5C8BD83433280BD44BC713A33CED1 /* AVFileQuery.h in Headers */,
+				BE064796E54A6B2C4E8CE3B103D94050 /* AVFriendQuery.h in Headers */,
+				F4E046A08BAC4094B109BBDFDEC01747 /* AVGeoPoint.h in Headers */,
+				CA47AE4FAB50EA49DCA0CB421546D645 /* AVGeoPoint_Internal.h in Headers */,
+				BD31E25D998ADB22965C7C2F058BFC11 /* AVGlobal.h in Headers */,
+				4488CB9E9D988B54A08335C74EAF9847 /* AVHelpers.h in Headers */,
+				48ADBC95167F8FB55CE7D76FECDA56FD /* AVHTTPClient.h in Headers */,
+				C85C43051911BA8DB18B60A8479A275A /* AVHTTPRequestOperation.h in Headers */,
+				E3EEED257607209DEF1F753BCEAE3FE3 /* AVImageRequestOperation.h in Headers */,
+				714AC4C0BF3C28AC727448B906857D7F /* AVInstallation.h in Headers */,
+				AAACFBFA745D28E0C1097F2DB3B063FE /* AVInstallation_Internal.h in Headers */,
+				A6F59A7D0A7AB78AFDCCED85DCB2A364 /* AVJSONRequestOperation.h in Headers */,
+				26A20C1A0E473BBA90D8D43B310F76BD /* AVKeychain.h in Headers */,
+				B9A03B5621F2B15F427B9B48875E438B /* AVLocationManager.h in Headers */,
+				1971F1702D6E702CF3A46F90152AACFC /* AVLogger.h in Headers */,
+				06C5FBB65F814780894C0DCCCCFBE00F /* AVNetworkActivityIndicatorManager.h in Headers */,
+				6E03E28E6B950C92FC2DBD8C21893538 /* AVNetworking.h in Headers */,
+				083344DD3474658D623FC060FEBED119 /* AVObject+Subclass.h in Headers */,
+				858218CA48C38B7457C2EDDDA87A0742 /* AVObject.h in Headers */,
+				9E50A6323846726468E83FDE437FC646 /* AVObject_Internal.h in Headers */,
+				60894B72C37AB8F69F79BABE41C31896 /* AVObjectUtils.h in Headers */,
+				C82009C953028017AE7010E04D35A7F9 /* AVOSCloud-umbrella.h in Headers */,
+				90E43B789E2ED43FD5C1AAF553878231 /* AVOSCloud.h in Headers */,
+				7720B89048345047C3234768D478E3B4 /* AVOSCloud_Internal.h in Headers */,
+				EB0F6FEA03DDD1BC819A8A2DC8C09A48 /* AVPaasClient.h in Headers */,
+				E7CAD7DABE410502D63D27233D7D23B3 /* AVPaasClient_internal.h in Headers */,
+				6F0F04280EB6098F3801FA183E7D196D /* AVPartialInputStream.h in Headers */,
+				2489CDFC4D43914E553BD93D4C0EB0FC /* AVPersistenceUtils.h in Headers */,
+				A655852814A6F4362EE011A8E731FEDD /* AVPush.h in Headers */,
+				0AA3BE3C7FCF9C328F9B8FAF4DD999BB /* AVPush_Internal.h in Headers */,
+				BBD862C75CBF4C762B2FFDC92BF5D3C2 /* AVQuery.h in Headers */,
+				508094B00ADA6EF05018054EBCC58909 /* AVQuery_Internal.h in Headers */,
+				F74CD9500C463DA6E166163E39BB4650 /* AVReachability.h in Headers */,
+				C75CD747D654E47901D3D9B02B3AF0CE /* AVRelation.h in Headers */,
+				72C741000E5BE2E82619B33B7DFC61FB /* AVRelation_Internal.h in Headers */,
+				AE234C2B2C84786B9ADC00CD8DF17362 /* AVRequestManager.h in Headers */,
+				51E918C635F1FDDADFB526D300CBA713 /* AVRequestOperation.h in Headers */,
+				22685064447383F38B0AC4A848BC28E0 /* AVRole.h in Headers */,
+				8895EF2BBB332D54DBA3EDBF8F37E9CA /* AVRole_Internal.h in Headers */,
+				D7FC47BEAC4254445D32201101CFA240 /* AVSaveOption.h in Headers */,
+				935A097FD6F72CAD7927B635BD5DF06E /* AVSaveOption_internal.h in Headers */,
+				050320C662219D4B6E08B526CAD91EDA /* AVScheduler.h in Headers */,
+				859705CDD38274EB1A6DE68A6C2AEC66 /* AVSearchQuery.h in Headers */,
+				1C3595C844B1AE4A2DE3EAD7BE19D978 /* AVSearchSortBuilder.h in Headers */,
+				AE8B40D4CBC55FC85BB6D86E0E93603E /* AVSMS.h in Headers */,
+				3B265325D869D4704166F492EAE73B4B /* AVStatus.h in Headers */,
+				FF11886D39A5E7BCFA4AC769E8B63AF0 /* AVSubclassing.h in Headers */,
+				44A54BADC5E6488F30325C275335F0AE /* AVUploaderManager.h in Headers */,
+				C699C375276331E6654103D6BB1079A2 /* AVURLConnectionOperation.h in Headers */,
+				6DD4DE95F054E19830E8C65E535F64E4 /* AVUser.h in Headers */,
+				929FF32424569185C3270E8D131F9E0F /* AVUser_Internal.h in Headers */,
+				04142829C22D8D2D8B4639DB701204AF /* AVUtils.h in Headers */,
+				B47493ADC5622807BF1E3F4AB5BA6E2E /* AVXMLRequestOperation.h in Headers */,
+				69D1D56994C07A42745DD88268417D37 /* EXTScope.h in Headers */,
+				24CA9FCC44822B49F4AC54EE851F50C2 /* LCDatabase.h in Headers */,
+				4872E29A5694E43080C3C107ED9BADAA /* LCDatabaseAdditions.h in Headers */,
+				ED1E2B7651C3907B11F642D2CCF1099E /* LCDatabaseCommon.h in Headers */,
+				414493A5321665C70B9ECE56A6BD8DCD /* LCDatabaseCoordinator.h in Headers */,
+				AF41E47F5D09B9D7BAA9FC89DD4AB790 /* LCDatabaseMigrator.h in Headers */,
+				D1E9D645537A4455BFCA36C6CC5BD3F9 /* LCDatabasePool.h in Headers */,
+				471EDDE69813BD40525564E29EB977D0 /* LCDatabaseQueue.h in Headers */,
+				193EC493CDC0C7857956A31A6D588735 /* LCDB.h in Headers */,
+				2C40B199E61CA9E1CC8D037CF378E761 /* LCHTTPSessionManager.h in Headers */,
+				B387FBF93DD4BE70489FAFE2B62373B3 /* LCKeyValueSQL.h in Headers */,
+				91161CF0A86D8137F642F84B4B8BDB12 /* LCKeyValueStore.h in Headers */,
+				19D158105A043C567B97FC4F9E8E03D9 /* LCNetworking.h in Headers */,
+				E139C3FFB0229C98EF6E02587A734A2E /* LCNetworkReachabilityManager.h in Headers */,
+				933A5F9C750F6A948CF4BA2A861ED67C /* LCNetworkStatistics.h in Headers */,
+				BC94CCA0CFB62913E7C09B91F5CE3507 /* LCObserver.h in Headers */,
+				3336A29FAFF4F2AC356ACA0C41648210 /* LCResultSet.h in Headers */,
+				FB41F8C07F2012642DF9582F3F4EB25A /* LCRouter.h in Headers */,
+				CB13502832D35AC4D04B30DD24EF067A /* LCSecurityPolicy.h in Headers */,
+				47AE40FB59670E8F934715D13BB69067 /* LCSSLChallenger.h in Headers */,
+				A2775870581EB62A5EFA09CD6B535812 /* LCURLConnection.h in Headers */,
+				1D16DC0148D185F55FFC3495F0C7D77C /* LCURLRequestSerialization.h in Headers */,
+				5EFBB6C4D5F1E6F00F8ABFFBDC03673D /* LCURLResponseSerialization.h in Headers */,
+				64393A11E7E0581AE2D8660EDD296032 /* LCURLSessionManager.h in Headers */,
+				BDE611DFB5791C74ADBD0B2CDBA8B0B0 /* metamacros.h in Headers */,
+				BA84EED8C751B48A12F6CD3E86696918 /* NSDictionary+LCHash.h in Headers */,
+				C6414747164B3C88D6398FFEE7410D6C /* NSDictionary+LeanCloud.h in Headers */,
+				1319A1AF4260B4DA6A11D7A4DC9FD3FE /* SDMacros.h in Headers */,
+				8BE92B1D8D41268FC6B499932D15EDA9 /* UserAgent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96FC866937E4C08C7A51CB7C766385F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1744E81FBAEF7999A0C0119C02E3F62B /* Pods-HBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D131DA483F1E8C90FA64604671E8676A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAFA12FCE060730A2B0ACF938E0E1CC /* LeanCloud-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E01143F3C6C5F4C651109AE4A7F4DAA /* LeanCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B97689BC40C76EDAE1C65164FE7EEB /* Build configuration list for PBXNativeTarget "LeanCloud" */;
+			buildPhases = (
+				9960F37CC7EB967E14EA2A5F378FF02F /* Sources */,
+				A544F0879B4E8764FEA87D274BB9366C /* Frameworks */,
+				D131DA483F1E8C90FA64604671E8676A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DFF4AD58CDFD4BDE06757750EE35037 /* PBXTargetDependency */,
+			);
+			name = LeanCloud;
+			productName = LeanCloud;
+			productReference = D6A9E59F9050DD33270A85E5E01543A5 /* LeanCloud.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		817E485E865456F57B093BCA3A198191 /* Pods-HBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D40C0A6CEF00B4862455389C754B38 /* Build configuration list for PBXNativeTarget "Pods-HBook" */;
+			buildPhases = (
+				BDE294DF5275085EDF30E7DE633210D8 /* Sources */,
+				4B377E3247B723B8BF4A8E9E14A90292 /* Frameworks */,
+				96FC866937E4C08C7A51CB7C766385F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC57C9DA247C6BAF17F99C6A6F48622 /* PBXTargetDependency */,
+				3BEAA90B3E00BB9CC8CE3675300DC1AB /* PBXTargetDependency */,
+				6D0AD8C3C39BC2820D659741E3F0DD1B /* PBXTargetDependency */,
+			);
+			name = "Pods-HBook";
+			productName = "Pods-HBook";
+			productReference = 2FC757646910A69DABB2015EBB3145C2 /* Pods_HBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 9B817D4F7CF1636D183E44B03AA4EFFD /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3F1BD6E6447C86B0F3C1500EF8A9E01 /* AVOSCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D207C5B92845393A43A9EFEF364150 /* Build configuration list for PBXNativeTarget "AVOSCloud" */;
+			buildPhases = (
+				2B842400F14FEC52B3371BCDCCFE024A /* Sources */,
+				37E74F95CD920FFB9631E3F717B2E9AD /* Frameworks */,
+				6D58E4E5202B826D9D1A01DD8FC3D18B /* Headers */,
+				6D90FBE5D65969445423A32B8FA736AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVOSCloud;
+			productName = AVOSCloud;
+			productReference = 6784B63CA9344F8C1410595445F96E25 /* AVOSCloud.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 80FE255E7FED1D95BB64D72AFF024A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				C3F1BD6E6447C86B0F3C1500EF8A9E01 /* AVOSCloud */,
+				3E01143F3C6C5F4C651109AE4A7F4DAA /* LeanCloud */,
+				817E485E865456F57B093BCA3A198191 /* Pods-HBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D90FBE5D65969445423A32B8FA736AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54875BD1F5B3AD022025BC7A77CEC2B /* AVOSCloud_Art.inc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B842400F14FEC52B3371BCDCCFE024A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8177CF132A1A6668B17A6D7D04F20C7 /* AVACL.m in Sources */,
+				7AAD35DC0F8AB03C6841302472EC0503 /* AVAnalytics.m in Sources */,
+				A0236F214DEF5B6DB3879FBF48AEB52E /* AVAnalyticsActivity.m in Sources */,
+				27AEB77F78D1F3A8EDC79B0B6AB3B60A /* AVAnalyticsImpl.m in Sources */,
+				9F80DC8E3556685A7C4880B6576E479D /* AVAnalyticsSession.m in Sources */,
+				06978919F8C7AD2F993A10EA0E964C7D /* AVAnalyticsUtils.m in Sources */,
+				765FFAEAF16419CCA8AD66E9A304364D /* AVAnonymousUtils.m in Sources */,
+				54EB5C361B6D276B7916B24E60DD0D0B /* AVCacheManager.m in Sources */,
+				1E61DFB01E8BC6B6F5F0E2439421C929 /* AVCaptcha.m in Sources */,
+				64766116B5F55138676A2686D18A004C /* AVCloud.m in Sources */,
+				876B29F4BDE7EBBC1B8CA0CD6CB61115 /* AVCloudQueryResult.m in Sources */,
+				6D6D5B9D0420C6B1D91156F642BA0E12 /* AVConfiguration.m in Sources */,
+				B042CB8D95A81C4F05C774160F224842 /* AVDuration.m in Sources */,
+				7347FA48DE0E710A080527FE429AF150 /* AVDynamicObject.m in Sources */,
+				EF36B700C0CEC9FB2E139ECD3D4C82AF /* AVErrorUtils.m in Sources */,
+				B60F98E18A3EE0754C6EA7D6DCF6A24F /* AVExceptionHandler.m in Sources */,
+				EB369EC5FB81BC1D9482D975470B3145 /* AVFile.m in Sources */,
+				E9D6D62C24F5ABAD59E8791A5088FE80 /* AVFileHTTPRequestOperation.m in Sources */,
+				F497ABA23761AEE797A21EAD53B930BF /* AVFileQuery.m in Sources */,
+				89C25A6343A23FA1CB9FF5A2BF9DF50B /* AVFriendQuery.m in Sources */,
+				5087C261C196AFE66CE92BDE78768F97 /* AVGeoPoint.m in Sources */,
+				82E158CD577241958299C4260E66E6E9 /* AVHTTPClient.m in Sources */,
+				F3E2148607085C11A3B0340920801AD4 /* AVHTTPRequestOperation.m in Sources */,
+				F8BB6B5D56B7AE3C0DB95C4D18F7912F /* AVImageRequestOperation.m in Sources */,
+				7FEB3EAC83DE73F43711C8402C29E7AB /* AVInstallation.m in Sources */,
+				83E875D347283640DAFBC4DFC53C5EE3 /* AVJSONRequestOperation.m in Sources */,
+				64FEB8E91267DCCB26DB0094C0EFE7B7 /* AVKeychain.m in Sources */,
+				635BB5184579457EF4D42F04B27CE8C2 /* AVLocationManager.m in Sources */,
+				A9A3FF54A0C5888595F6D759B23E7A04 /* AVLogger.m in Sources */,
+				F46661DFC759FCE6C5BC651AB9350935 /* AVNetworkActivityIndicatorManager.m in Sources */,
+				5CA64509431BAF4CDD9D0E1D8E1D5DFB /* AVObject.m in Sources */,
+				C6FAACFBEA39C7A84EA55AE6643467CF /* AVObjectUtils.m in Sources */,
+				2C44496CE24EC6FDB9556B92557B8FF3 /* AVOSCloud-dummy.m in Sources */,
+				0E949BAD7511B4C23BB74AC22AE4F2F1 /* AVOSCloud.m in Sources */,
+				7989377A99888BB40C4FB41B7DF692B0 /* AVPaasClient.m in Sources */,
+				1204A7DD8D5D63D5116B0D8D9B042D86 /* AVPartialInputStream.m in Sources */,
+				E5C8FB6E7222D75EF1E6E5792F4D650F /* AVPersistenceUtils.m in Sources */,
+				042C60F518E443B668082A24B61469E9 /* AVPush.m in Sources */,
+				6C01CAD923C906332D0708D709CBA61C /* AVQuery.m in Sources */,
+				8137CAE3F873D65337664DF0BF48E3EB /* AVReachability.m in Sources */,
+				424196550346ABF078A884A2F04EA446 /* AVRelation.m in Sources */,
+				CCFC4150087A3A236E0E046E23AE7CDD /* AVRequestManager.m in Sources */,
+				F4288C9B4F327D8FE29A547ACFDA0492 /* AVRequestOperation.m in Sources */,
+				8B82BFBF29D3E8FB1FABEC8985556169 /* AVRole.m in Sources */,
+				76C3B8CF8929721BE16FB3D527C69C78 /* AVSaveOption.m in Sources */,
+				63449E2D2FE372BA0BB59FE454680BE8 /* AVScheduler.m in Sources */,
+				5E868E5B6CC9CD1FC2EFC25764CCD99E /* AVSearchQuery.m in Sources */,
+				D3C96A6EEA24071F7C58F6C915E990F7 /* AVSearchSortBuilder.m in Sources */,
+				3449861448BC359C24A37E02B24532CA /* AVSMS.m in Sources */,
+				3097D263CC94B0BD1848373720C5D5E0 /* AVStatus.m in Sources */,
+				1C6CDF9337571C7FC2EF5115484813A5 /* AVUploaderManager.m in Sources */,
+				CC2794AAB0AF5436AF9818A37194C0A8 /* AVURLConnectionOperation.m in Sources */,
+				6CA22587752DB1093E15C7769230EA98 /* AVUser.m in Sources */,
+				3802BAE869E5E0D2213B18E7BE730A4B /* AVUtils.m in Sources */,
+				C0B0EB1BB08DE943FB47984687A19A84 /* AVXMLRequestOperation.m in Sources */,
+				7DC767E017EEA4A72D2CBAF740D1AE22 /* EXTScope.m in Sources */,
+				C62A8A267F0A56F7EE6E5836A66667B0 /* LCDatabase.m in Sources */,
+				CB9519C7CAE0CE6D2F26C0CFC8811B87 /* LCDatabaseAdditions.m in Sources */,
+				69315B98D24429C4AD8979EA51261A4B /* LCDatabaseCoordinator.m in Sources */,
+				952F1EFAE4C49CE42D7EBA5E1B0C005D /* LCDatabaseMigrator.m in Sources */,
+				AAD8A267CE6FFA11EF269C559FE8AADA /* LCDatabasePool.m in Sources */,
+				3B9A15ED3CAC3671623B44D3343168F7 /* LCDatabaseQueue.m in Sources */,
+				F4EB9D32042DC95FDC83669702CB5102 /* LCHTTPSessionManager.m in Sources */,
+				A4A68901024C7C65E0DD425E300BBB32 /* LCKeyValueStore.m in Sources */,
+				8762CCD8CF605C76D8B91937FD093005 /* LCNetworkReachabilityManager.m in Sources */,
+				A59E79653AB1ADAC6B01DFB57720CD75 /* LCNetworkStatistics.m in Sources */,
+				555BDB9728B610E3DB48599FB23CDD26 /* LCObserver.m in Sources */,
+				0499C666E7D06495CBDEFB4DD113AB2A /* LCResultSet.m in Sources */,
+				6A0CACCFBAA830EDA64B50E478976109 /* LCRouter.m in Sources */,
+				7A26BDF907AF6F7BC21B0B262D3600BD /* LCSecurityPolicy.m in Sources */,
+				D3A8E02CF95A205B7F5A149F06E26879 /* LCSSLChallenger.m in Sources */,
+				F7FD554E9A7415ADCE33D471BA6475C7 /* LCURLConnection.m in Sources */,
+				86BCAD8ADB7285976B9019786E8915F9 /* LCURLRequestSerialization.m in Sources */,
+				E7C713EA30967D92954F6DABC390D193 /* LCURLResponseSerialization.m in Sources */,
+				D2441A3ED403114E48140F2728DA97C7 /* LCURLSessionManager.m in Sources */,
+				24B1A419D176F8553DA22C7595F2962C /* NSDictionary+LCHash.m in Sources */,
+				01399B812CAE60C3AFBA6B1AFDC1737D /* NSDictionary+LeanCloud.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9960F37CC7EB967E14EA2A5F378FF02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8259B3BF9791180703DD3FA588E4FBA /* ACL.swift in Sources */,
+				4661DCDB945E1C0EA67665E888C902C5 /* Array.swift in Sources */,
+				9A735EFB17DE946067EAD6FB96812E50 /* BatchRequest.swift in Sources */,
+				1CA1F35C397A511F3B1A3F67D0581B70 /* Bool.swift in Sources */,
+				B63A69527E01B32E5A0E34794164571E /* Configuration.swift in Sources */,
+				BF24EDB30F5858EE5DE2F35FEFF516C0 /* CQLClient.swift in Sources */,
+				2C5C928709E63B0659B456EE10EFCD11 /* Data.swift in Sources */,
+				BC2A243A20B7193F98C9805F74B6813E /* Date.swift in Sources */,
+				D8152D1CE4DF76D97582E25F3357451F /* Dictionary.swift in Sources */,
+				16EDC7A920A655A9228E796DF617EEA1 /* Engine.swift in Sources */,
+				4D48B6485DB536C005A463B4B4F224A0 /* Error.swift in Sources */,
+				05C74A0992D084B5DB96E2C5F6385EBD /* Extension.swift in Sources */,
+				55B27D81F65AAA6EF4531A5A10585647 /* GeoPoint.swift in Sources */,
+				4855C6B0B4D0751C69E8978E350F93E1 /* LeanCloud-dummy.m in Sources */,
+				A018D59A67F963D0ADF087ACD8AA1A53 /* LeanCloud.swift in Sources */,
+				29F95BB744528B6E6ADD884837951C43 /* Logger.swift in Sources */,
+				15699AA2E7BE8C413360AC7FE3AB7955 /* MD5.swift in Sources */,
+				2E0541B475DBB970635C7F8F8FAA35F7 /* Null.swift in Sources */,
+				3E6E4E72557A0160A6ED793414B8FBAE /* Number.swift in Sources */,
+				9ACC4FCDFC8966D805644FF76996ED5C /* Object.swift in Sources */,
+				B3A22FBECD467D43DBD4E83265CC1B88 /* ObjectProfiler.swift in Sources */,
+				050FEF9032B4BC3E38E4A731E7CDE99F /* ObjectUpdater.swift in Sources */,
+				C66732E0888BABB1DA9EF75822B04342 /* Operation.swift in Sources */,
+				BDE74818D9B05CFD0F768F993F31CE89 /* Query.swift in Sources */,
+				235E1CBF2F8210F3E08A893B062D2D44 /* Relation.swift in Sources */,
+				A9B24C6AA9B6D2A601F62BE2188E06C9 /* Request.swift in Sources */,
+				D44CCE299F8D036DCAF1F35F1781037E /* Response.swift in Sources */,
+				728A7D7196A7478B310AB24725E4F758 /* RESTClient.swift in Sources */,
+				1ABFE2BE482077C3155EEB510FD2583F /* Result.swift in Sources */,
+				26D67E7A5612FFF2C1BEFA6157BBA00D /* Role.swift in Sources */,
+				446DFBCE44F34CDDE619682DAFCDFC4B /* Runtime.swift in Sources */,
+				74FA3C218A1A9C02882B46928CE6987D /* SMS.swift in Sources */,
+				AAB613DDE27B683CACCEA8514E22A6A4 /* String.swift in Sources */,
+				3E4AA992CC6540DA88E0F9DB3CDD97F2 /* User.swift in Sources */,
+				F643C01C2A463127D7E743983B3C86F2 /* Utility.swift in Sources */,
+				A58D0296DEDD5DD15FCBDB5CD6BB937E /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE294DF5275085EDF30E7DE633210D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E649832DB6E31BC282B8DAAE099ED74 /* Pods-HBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BEAA90B3E00BB9CC8CE3675300DC1AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = FC6960A35C465991D6F4C2BDD12F89EC /* PBXContainerItemProxy */;
+		};
+		4DFF4AD58CDFD4BDE06757750EE35037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 565BBBC98B092686B6EFD29EE3398D2A /* PBXContainerItemProxy */;
+		};
+		6D0AD8C3C39BC2820D659741E3F0DD1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LeanCloud;
+			target = 3E01143F3C6C5F4C651109AE4A7F4DAA /* LeanCloud */;
+			targetProxy = C821A77EFE44F6C64C444F277E4931FC /* PBXContainerItemProxy */;
+		};
+		CDC57C9DA247C6BAF17F99C6A6F48622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AVOSCloud;
+			target = C3F1BD6E6447C86B0F3C1500EF8A9E01 /* AVOSCloud */;
+			targetProxy = E076D7CC315E56B71A53A2B83446995F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04BB7CAD69EC1B3138242716F9000181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F839F3298A1D77FE72AA63214679AD0 /* AVOSCloud.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloud/AVOSCloud-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AVOSCloud/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AVOSCloud/AVOSCloud.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AVOSCloud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		174CA6777CFEE7AC333D231AE980360B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F839F3298A1D77FE72AA63214679AD0 /* AVOSCloud.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AVOSCloud/AVOSCloud-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AVOSCloud/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AVOSCloud/AVOSCloud.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AVOSCloud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C00F5690CE5483622723307467E4709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C851EC1716ED6CF603419C5EE1B84D0 /* LeanCloud.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LeanCloud/LeanCloud-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeanCloud/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeanCloud/LeanCloud.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LeanCloud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378D12DCD9BA99B8FD3493DA70AED828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2198BDE867BB9F819C256547B5E44C20 /* Pods-HBook.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBook/Pods-HBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		504DF13E55B0EEA1340CFDAB337A86F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C851EC1716ED6CF603419C5EE1B84D0 /* LeanCloud.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LeanCloud/LeanCloud-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeanCloud/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeanCloud/LeanCloud.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LeanCloud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D072D0D174F12EAACC1862DA756E67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7517477793A66B54E3D757C694F6F3EB /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C93BDBCE7199A545EEE538A918FE046A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598E639267C022BA6430397D9B139B72 /* Pods-HBook.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBook/Pods-HBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9660A42FEDD040185578ADA021EC8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7517477793A66B54E3D757C694F6F3EB /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9660A42FEDD040185578ADA021EC8E0 /* Debug */,
+				7D072D0D174F12EAACC1862DA756E67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45D40C0A6CEF00B4862455389C754B38 /* Build configuration list for PBXNativeTarget "Pods-HBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D12DCD9BA99B8FD3493DA70AED828 /* Debug */,
+				C93BDBCE7199A545EEE538A918FE046A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D207C5B92845393A43A9EFEF364150 /* Build configuration list for PBXNativeTarget "AVOSCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BB7CAD69EC1B3138242716F9000181 /* Debug */,
+				174CA6777CFEE7AC333D231AE980360B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B97689BC40C76EDAE1C65164FE7EEB /* Build configuration list for PBXNativeTarget "LeanCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C00F5690CE5483622723307467E4709 /* Debug */,
+				504DF13E55B0EEA1340CFDAB337A86F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
